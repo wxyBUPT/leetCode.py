@@ -51,3 +51,14 @@ class Solution(object):
             nums[index] = 0
             index += 1
 
+    #对于leetcode上的测试用例，这个效率不是很高
+    def moveZeroes3(self, nums):
+
+        z = -1
+
+        for i in range(0, len(nums)):
+            temp = nums[i]
+            if temp != 0:
+                nums[i] = nums[++z]
+                nums[z] = temp
+
