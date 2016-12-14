@@ -1,6 +1,7 @@
 #coding=utf-8
 __author__ = 'xiyuanbupt'
 # e-mail : xywbupt@gmail.com
+from linkedlist.listNode import ListNode
 
 '''
 83. Remove Duplicates from Sorted List   Add to List QuestionEditorial Solution  My Submissions
@@ -23,9 +24,34 @@ Given 1->1->2->3->3, return 1->2->3.
 #         self.next = None
 
 class Solution(object):
+
+    # 68.25%
     def deleteDuplicates(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
         """
-        
+        if not head:
+            return head
+
+        res = ListNode(head.val)
+        curr = res
+        curr_val = head.val
+        head = head.next
+        while head:
+            if head.val != curr_val:
+                curr.next = ListNode(head.val)
+                curr = curr.next
+                curr_val = head.val
+            head = head.next
+        return res
+
+    def recursionDelete(self, head):
+        if not head:
+            return head
+        curr = head.next
+        while curr and curr.val == head.val:
+            curr = curr.next
+        head.next = self.recursionDelete(curr)
+        return head
+
