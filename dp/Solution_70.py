@@ -27,3 +27,9 @@ class Solution(object):
             dp[i] = dp[i-1] + dp[i-2]
         return dp[n]
 
+    def stefanPochmann(self, n):
+        a = b = 1
+        for _ in range(n):
+            a, b = b, a + b
+        return a
+
