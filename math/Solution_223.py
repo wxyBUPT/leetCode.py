@@ -17,6 +17,8 @@ Assume that the total area is never beyond the maximum possible value of int.
 '''
 
 class Solution(object):
+
+    # 58.11%
     def computeArea(self, A, B, C, D, E, F, G, H):
         """
         :type A: int
