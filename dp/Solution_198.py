@@ -30,7 +30,8 @@ class Solution(object):
         for i in nums:
             last, now = now, max(last + i, now)
         return now
-    # 自己想的垃圾算法，没有参考价值
+
+    # 早晨没有睡醒自己想的垃圾算法，没有参考价值
     def rob(self, nums):
         """
         :type nums: List[int]
