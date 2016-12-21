@@ -28,7 +28,7 @@ The encoded string should be as compact as possible.
 class CodecImproved:
 
     # 利用二叉搜索树的性质
-    # 69.31%
+    # 74.26%
     def serialize(self, root):
         def preorder(node, curr):
             if not node:
