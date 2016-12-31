@@ -24,7 +24,6 @@ import java.util.List;
  [2,3]
  */
 public class Solution_442 {
-
     // 77.04%
     // 二元状态都可以考虑使用index来存储
     public List<Integer> findDuplicates(int[] nums) {
