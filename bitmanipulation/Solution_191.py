@@ -20,5 +20,4 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-
         return bin(n&0xFFFFFFFF).count('1')

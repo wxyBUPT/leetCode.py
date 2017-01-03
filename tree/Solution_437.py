@@ -45,18 +45,31 @@ Return 3. The paths that sum to 8 are:
 class Solution(object):
 
 
+    # 利用二叉树的后续遍历
     def pathSum(self, root, sum):
         """
         :type root: TreeNode
         :type sum: int
         :rtype: int
         """
-        return self.helper(root, 0, sum, False)
+        return self.helper(root, 0, sum, [])
 
-    def helper(self, root, curr, target, hasparent):
-        if not root:
-            return 0
+    def helper(self, node, curr, target, stack):
+        res = 0
+        if not node:
+            return res
+        stack.append(node.val)
+        curr += curr+node.val
 
+        if curr == target:
+            res += 1
 
-
-
+        tmp = curr
+        for num in stack:
+            tmp -= num
+            if tmp == target:
+                res += 1
+        res += self.helper(node.left, target, curr, stack)
+        res += self.helper(node.right, target, curr, stack)
+        stack.pop()
+        return res

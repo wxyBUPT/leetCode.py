@@ -77,7 +77,6 @@ public class Solution_451 {
             }
         }
         return sb.toString();
-
     }
     public String frequencySort(String s) {
         Map<Character, Integer> map = new HashMap<>();
@@ -107,6 +106,5 @@ public class Solution_451 {
     public static void main(String[] args){
         Solution_451 sl = new Solution_451();
         System.out.println(sl.frequencySort("ccca"));
-
     }
 }
