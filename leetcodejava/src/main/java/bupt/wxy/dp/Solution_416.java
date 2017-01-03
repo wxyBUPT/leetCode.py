@@ -29,7 +29,7 @@ package main.java.bupt.wxy.dp;
  */
 
 // 还可以使用dfs但是不能通过oj
-    
+
 public class Solution_416 {
 
     public boolean canPartition(int[] nums) {
