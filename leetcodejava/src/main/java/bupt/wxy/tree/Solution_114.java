@@ -32,6 +32,7 @@ package main.java.bupt.wxy.tree;
  */
 public class Solution_114 {
 
+    // 在递归中使用共享值记录还是第一次使用
     TreeNode pre=null;
 
     // 对于单线程有返回值可以使用私有变量代替
