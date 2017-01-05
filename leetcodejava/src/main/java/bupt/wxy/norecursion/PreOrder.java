@@ -21,6 +21,11 @@ public class PreOrder {
         preorder(root.right, res);
     }
 
+    /**
+     * 非递归版本
+     * @param root
+     * @return
+     */
     public List<Integer> preorder(TreeNode root){
         List<Integer> res=new ArrayList<>();
         Stack<TreeNode> stack=new Stack<>();
