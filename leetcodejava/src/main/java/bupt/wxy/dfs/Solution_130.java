@@ -33,14 +33,15 @@ public class Solution_130 {
 
     public void solve(char[][] board){
         if((m=board.length)==0||(n=board[0].length)==0)return;
+        if(m<2||n<2)return;
         for(int i=0;i<m;i++){
             if(board[i][0]=='O')boundaryDFS(board,i,0);
-            if(board[i][m-1]=='O')boundaryDFS(board,i,n-1);
+            if(board[i][n-1]=='O')boundaryDFS(board,i,n-1);
         }
 
         for(int j=0;j<n;j++){
             if(board[0][j]=='O')boundaryDFS(board,0,j);
-            if(board[n-1][j]=='O')boundaryDFS(board,0,j);
+            if(board[m-1][j]=='O')boundaryDFS(board,0,j);
         }
         for(int i=0;i<m;i++)
             for(int j=0;j<n;j++){
