@@ -35,7 +35,7 @@ public class Solution_130 {
         if((m=board.length)==0||(n=board[0].length)==0)return;
         for(int i=0;i<m;i++){
             if(board[i][0]=='O')boundaryDFS(board,i,0);
-            if(board[i][n-1]=='O')boundaryDFS(board,i,n-1);
+            if(board[i][m-1]=='O')boundaryDFS(board,i,n-1);
         }
 
         for(int j=0;j<n;j++){
