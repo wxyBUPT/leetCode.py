@@ -32,7 +32,7 @@ public class Solution_95 {
         if(n==0)return dp[0];
         dp[0].add(null);
 
-        
+
         for(int len=1;len<=n;len++){
             dp[len]=new LinkedList<>();
             for(int j=0;j<len;j++){
