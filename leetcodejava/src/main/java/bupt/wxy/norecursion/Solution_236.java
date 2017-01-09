@@ -63,6 +63,7 @@ public class Solution_236 {
     }
 
     // 本题目还有递归的遍历方式
+    // 使用递归方式一般比使用非递归的方式快一些
     public TreeNode recursion(TreeNode root, TreeNode p, TreeNode q){
         if(root==null||root==p||root==q)return root;
         TreeNode left=recursion(root.left,p,q);
