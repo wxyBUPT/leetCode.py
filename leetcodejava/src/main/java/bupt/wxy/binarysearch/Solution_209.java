@@ -20,6 +20,7 @@ import java.util.Arrays;
  */
 public class Solution_209 {
 
+    // 但是超时了...
     public int minSubArrayLen(int s, int[] nums) {
 
         int[] sums=new int[nums.length+1];
