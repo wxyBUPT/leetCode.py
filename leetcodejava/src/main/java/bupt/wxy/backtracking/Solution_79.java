@@ -32,7 +32,7 @@ public class Solution_79 {
     int len;
 
 
-    //06.26%
+    //96.26%
     public boolean exist(char[][] board, String word) {
         if((m=board.length)==0||(n=board[0].length)==0)return false;
         visited=new boolean[m][n];
