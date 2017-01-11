@@ -21,6 +21,7 @@ import java.util.Arrays;
  */
 public class Solution_221 {
 
+    // 96.31%
     public int maximalSquare(char[][] matrix) {
         int m,n;
         if((m=matrix.length)==0||(n=matrix[0].length)==0)return 0;
