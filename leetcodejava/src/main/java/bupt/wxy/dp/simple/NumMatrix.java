@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dp;
+package main.java.bupt.wxy.dp.simple;
 
 import java.util.Arrays;
 
