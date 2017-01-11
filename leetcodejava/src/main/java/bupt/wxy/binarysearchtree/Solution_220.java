@@ -1,5 +1,7 @@
 package main.java.bupt.wxy.binarysearchtree;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -21,36 +23,43 @@ import java.util.TreeSet;
  */
 public class Solution_220 {
 
+
+    // %32.41%
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         if(k<1||t<0)return false;
-        SortedSet<Integer> set=new TreeSet<>();
+        SortedSet<Long> set=new TreeSet<>();
         for(int i=0;i<k&&i<nums.length;i++){
-            int start,end;
 
-            if(Integer.MIN_VALUE+t>nums[i])start=Integer.MIN_VALUE;
-            else start=nums[i]-t;
-            if(Integer.MAX_VALUE-t-1<nums[i])end=Integer.MAX_VALUE;
-            else end=nums[i]+t+1;
-
-
-            if(set.subSet(start,end).size()!=0)return true;
-            set.add(nums[i]);
+            if(set.subSet((long)nums[i]-t,(long)nums[i]+t+1).size()!=0)return true;
+            set.add((long)nums[i]);
         }
         for(int i=k;i<nums.length;i++){
-            int start,end;
-            if(Integer.MIN_VALUE+t>nums[i])start=Integer.MIN_VALUE;
-            else start=nums[i]-t;
-            if(Integer.MAX_VALUE-t-1<nums[i])end=Integer.MAX_VALUE;
-            else end=nums[i]+t+1;
 
-            if(set.subSet(start,end).size()!=0)return true;
-            set.add(nums[i]);
-            set.remove(nums[i-k]);
+            if(set.subSet((long)nums[i]-t,(long)nums[i]+t+1).size()!=0)return true;
+            set.add((long)nums[i]);
+            set.remove((long)nums[i-k]);
         }
         return false;
     }
-    public static void main(String[] args){
-        System.out.println(Integer.MIN_VALUE);
+
+    // 还可以使用桶排序, 思想差不多, 下面是lx223 的代码
+    public boolean containsNearbyAlmostDuplicatebucket(int[] nums, int k, int t) {
+        if (k < 1 || t < 0) return false;
+        Map<Long, Long> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            long remappedNum = (long) nums[i] - Integer.MIN_VALUE;
+            long bucket = remappedNum / ((long) t + 1);
+            if (map.containsKey(bucket)
+                    || (map.containsKey(bucket - 1) && remappedNum - map.get(bucket - 1) <= t)
+                    || (map.containsKey(bucket + 1) && map.get(bucket + 1) - remappedNum <= t))
+                return true;
+            if (map.entrySet().size() >= k) {
+                long lastBucket = ((long) nums[i - k] - Integer.MIN_VALUE) / ((long) t + 1);
+                map.remove(lastBucket);
+            }
+            map.put(bucket, remappedNum);
+        }
+        return false;
     }
 
 }
