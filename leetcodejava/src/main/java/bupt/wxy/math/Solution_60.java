@@ -24,6 +24,8 @@ import java.util.List;
  "321"
  Given n and k, return the kth permutation sequence.
  */
+
+// 65.51%
 public class Solution_60 {
 
     static int[] dp=new int[10];
