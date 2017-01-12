@@ -41,7 +41,7 @@ public class Solution_397 {
 
     // 使用long 通过了
     // 使用int 会发生溢出的情况
-    // 另外还可以使用无符号左移位 >>> 
+    // 另外还可以使用无符号左移位 >>>
     public int integerReplacement(long n) {
 
         int res=0;
