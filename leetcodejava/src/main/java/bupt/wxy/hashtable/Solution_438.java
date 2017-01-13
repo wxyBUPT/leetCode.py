@@ -42,6 +42,7 @@ import java.util.List;
  */
 public class Solution_438 {
 
+    // 51.26%
     public List<Integer> findAnagrams(String s, String p) {
         if(s.length()<p.length())return null;
         int[] s_map=new int[26];
