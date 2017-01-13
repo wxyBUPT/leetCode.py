@@ -15,6 +15,7 @@ import java.util.PriorityQueue;
 
 /**
  * 有时间看看败者树的实现, 败者树的实现要比mergesort 复杂很多
+ * 想法不要太奇怪太复杂, 一般面试靠的算法题都能就地实现
  */
 public class Solution_23 {
 
