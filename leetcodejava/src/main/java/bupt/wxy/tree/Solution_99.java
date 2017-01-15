@@ -23,8 +23,42 @@ import java.util.Stack;
  */
 public class Solution_99 {
 
+    public void recoverTree(TreeNode root){
+        Stack<TreeNode> stack=new Stack<>();
+        TreeNode pre=new TreeNode(Integer.MIN_VALUE);
+        TreeNode curr=root;
+        TreeNode first=null,second=null;
+
+        while (curr!=null||!stack.isEmpty()){
+            while ((curr!=null)){
+                stack.push(curr);
+                curr=curr.left;
+            }
+
+            curr=stack.pop();
+            if(first==null&&pre.val>=curr.val){
+                first=pre;
+            }
+            else if(first!=null&&pre.val>=curr.val){
+                second=curr;
+            }
+            pre=curr;
+            curr=curr.right;
+        }
+        if(first!=null&&second!=null){
+            int tmp=first.val;
+            first.val=second.val;
+            second.val=tmp;
+            System.out.println(first.val);
+            System.out.println(second.val);
+        }
+    }
+
+    /**
     // 二叉树的非递归中序比那里
-    public void recoverTree(TreeNode root) {
+    // 9.01%
+     //有点冗余
+    public void recoverTreeBad(TreeNode root) {
 
         Stack<TreeNode> stack=new Stack<>();
         TreeNode curr=root;
@@ -60,6 +94,8 @@ public class Solution_99 {
             a.val=b.val;
             b.val=tmp;
         }
-
     }
+     **/
+
+
 }
