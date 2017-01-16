@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.array;
+package main.java.bupt.wxy.array.easy;
 
 import java.util.ArrayList;
 import java.util.List;
