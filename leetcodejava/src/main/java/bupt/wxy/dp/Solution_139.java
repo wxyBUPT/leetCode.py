@@ -19,7 +19,7 @@ import java.util.*;
  */
 public class Solution_139 {
 
-    public boolean wordBreak(String s,List<String > wordDict){
+    public boolean wordBreakdp(String s,List<String > wordDict){
         boolean[] dp=new boolean[s.length()+1];
         Set<String> set=new HashSet<>(wordDict);
         dp[0]=true;
@@ -33,6 +33,17 @@ public class Solution_139 {
             }
         }
         return dp[s.length()];
+    }
+
+    Set<String> seen=new HashSet<>();
+    public boolean wordBreak(String s, List<String> wordDict){
+        if(s.length()==0)return true;
+        if(seen.contains(s))return false;
+        seen.add(s);
+        for(String word:wordDict){
+            if(s.startsWith(word)&&wordBreak(s.substring(word.length()),wordDict))return true;
+        }
+        return false;
     }
 
     public static void main(String[] args){
