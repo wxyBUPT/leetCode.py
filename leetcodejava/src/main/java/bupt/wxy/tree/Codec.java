@@ -2,7 +2,6 @@ package main.java.bupt.wxy.tree;
 
 import java.util.Arrays;
 import java.util.Deque;
-import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
