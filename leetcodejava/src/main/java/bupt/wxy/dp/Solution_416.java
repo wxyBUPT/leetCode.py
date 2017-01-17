@@ -2,11 +2,12 @@ package main.java.bupt.wxy.dp;
 
 /**
  * Created by xiyuanbupt on 1/3/17.
- 416. Partition Equal Subset Sum   Add to List QuestionEditorial Solution  My Submissions
+ 416. Partition Equal Subset Sum
  Total Accepted: 11030
  Total Submissions: 29494
  Difficulty: Medium
  Contributors: Admin
+ 
  Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 
  Note:
@@ -48,10 +49,5 @@ public class Solution_416 {
             }
         }
         return dp[sum/2];
-    }
-
-    public static void main(String[] args){
-        boolean[] dp= new boolean[2];
-        System.out.println(dp[0]);
     }
 }
