@@ -18,6 +18,12 @@ import java.util.*;
  Input:Digit string "23"
  Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
  */
+
+/**
+ * 虽然很容易想到使用回溯法, 但是有的回溯法可以使用队列来解决问题
+ */
+
+// 10%
 public class LetterCombinationsOfAPhoneNumber {
 
     static Map<Character,String> map=new HashMap<>();
@@ -35,21 +41,20 @@ public class LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {
         if(digits.length()==0)return new ArrayList<>();
         List<String> res = new LinkedList<>();
-        backtracking(digits,0,new StringBuilder(),res);
+        backtracking(digits,0,"",res);
         return res;
     }
 
-    void backtracking(String digits, int index, StringBuilder curr, List<String> res){
+    void backtracking(String digits, int index, String curr, List<String> res){
         if(index==digits.length()){
-            res.add(curr.toString());
+            res.add(curr);
             return;
         }
 
         char digit = digits.charAt(index);
         for(char c:map.get(digit).toCharArray()){
-            curr.append(c);
-            backtracking(digits,index+1,curr,res);
-            curr.deleteCharAt(curr.length()-1);
+            String next=curr+c;
+            backtracking(digits,index+1,next,res);
         }
     }
 }
