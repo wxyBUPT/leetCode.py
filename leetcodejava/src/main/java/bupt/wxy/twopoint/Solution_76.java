@@ -2,7 +2,8 @@ package main.java.bupt.wxy.twopoint;
 
 /**
  * Created by xiyuanbupt on 1/16/17.
- 76. Minimum Window Substring   Add to List QuestionEditorial Solution  My Submissions
+ 76. Minimum Window Substring
+
  Total Accepted: 86145
  Total Submissions: 361236
  Difficulty: Hard

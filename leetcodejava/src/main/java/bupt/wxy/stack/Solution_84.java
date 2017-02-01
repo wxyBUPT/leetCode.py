@@ -2,7 +2,7 @@ package main.java.bupt.wxy.stack;
 
 /**
  * Created by xiyuanbupt on 1/16/17.
- 84. Largest Rectangle in Histogram   Add to List QuestionEditorial Solution  My Submissions
+ 84. Largest Rectangle in Histogram
  Total Accepted: 79465
  Total Submissions: 309582
  Difficulty: Hard

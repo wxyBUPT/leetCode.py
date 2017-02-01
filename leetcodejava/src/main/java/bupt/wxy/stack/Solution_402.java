@@ -2,7 +2,7 @@ package main.java.bupt.wxy.stack;
 
 /**
  * Created by xiyuanbupt on 1/9/17.
- 402. Remove K Digits   Add to List QuestionEditorial Solution  My Submissions
+ 402. Remove K Digits
  Total Accepted: 11699
  Total Submissions: 44781
  Difficulty: Medium
