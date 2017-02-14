@@ -8,10 +8,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/13/17.
  119. Pascal's Triangle II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 100355
- Total Submissions: 286509
+
  Difficulty: Easy
- Contributors: Admin
  Given an index k, return the kth row of the Pascal's triangle.
 
  For example, given k = 3,

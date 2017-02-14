@@ -5,10 +5,8 @@ import java.util.Arrays;
 /**
  * Created by xiyuanbupt on 1/13/17.
  88. Merge Sorted Array
- Total Accepted: 138733
- Total Submissions: 441813
+
  Difficulty: Easy
- Contributors: Admin
  Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 
  Note:

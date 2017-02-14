@@ -7,10 +7,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/10/17.
  228. Summary Ranges   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 67374
- Total Submissions: 240338
+
  Difficulty: Medium
- Contributors: Admin
  Given a sorted integer array without duplicates, return the summary of its ranges.
 
  For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].

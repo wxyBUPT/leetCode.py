@@ -6,10 +6,7 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 12/31/16.
  442. Find All Duplicates in an Array
- Total Accepted: 8689
- Total Submissions: 18556
- Difficulty: Medium
- Contributors: shen5630
+
  Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 
  Find all the elements that appear twice in this array.

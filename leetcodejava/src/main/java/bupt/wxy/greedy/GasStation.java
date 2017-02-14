@@ -31,7 +31,7 @@ public class GasStation {
             }
             else {
                 --start;
-                sum+=gas[start]-cost[end];
+                sum+=gas[start]-cost[start];
             }
         }
         return sum>=0?start:-1;
