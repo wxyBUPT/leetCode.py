@@ -6,11 +6,8 @@ import java.util.Comparator;
 /**
  * Created by xiyuanbupt on 2/13/17.
  435. Non-overlapping Intervals
- Description  Submission  Solutions  Add to List
- Total Accepted: 7353
- Total Submissions: 18384
  Difficulty: Medium
- Contributors: love_FDU_llp
+
  Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
 
  Note:

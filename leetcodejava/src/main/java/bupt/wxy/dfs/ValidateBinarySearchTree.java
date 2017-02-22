@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dfs;
 /**
  * Created by xiyuanbupt on 1/11/17.
  98. Validate Binary Search Tree
- Total Accepted: 134186
- Total Submissions: 600851
  Difficulty: Medium
- Contributors: Admin
+
  Given a binary tree, determine if it is a valid binary search tree (BST).
 
  Assume a BST is defined as follows:
@@ -37,8 +35,11 @@ public class ValidateBinarySearchTree {
         if(root.val==Integer.MIN_VALUE&&root.left!=null)return false;
         if(root.val==Integer.MAX_VALUE&&root.right!=null)return false;
         if(root.val<start||root.val>end)return false;
+        return isBSTWithDepth(root.left,start,root.val-1)&&isBSTWithDepth(root.right,root.val+1,end);
+        /**
         boolean left=isBSTWithDepth(root.left,start,root.val-1);
         boolean right=isBSTWithDepth(root.right,root.val+1,end);
         return left&&right;
+         **/
     }
 }

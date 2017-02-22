@@ -8,10 +8,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/9/17.
  47. Permutations II
- Total Accepted: 100540
- Total Submissions: 324763
  Difficulty: Medium
- Contributors: Admin
+
  Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
  For example,
@@ -48,6 +46,4 @@ public class Permutations_II {
             curr.remove(curr.size()-1);
         }
     }
-
-
 }

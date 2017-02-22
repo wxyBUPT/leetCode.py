@@ -3,10 +3,8 @@ package main.java.bupt.wxy.bitmanipulation;
 /**
  * Created by xiyuanbupt on 1/12/17.
  397. Integer Replacement
- Total Accepted: 13215
- Total Submissions: 45280
  Difficulty: Medium
- Contributors: Admin
+
  Given a positive integer n and you can do operations as follow:
 
  If n is even, replace n with n/2.

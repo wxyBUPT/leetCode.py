@@ -8,11 +8,10 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/8/17.
  40. Combination Sum II
- Total Accepted: 96350
- Total Submissions: 308226
  Difficulty: Medium
- Contributors: Admin
- Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+
+ Given a collection of candidate numbers (C) and a target number (T),
+ find all unique combinations in C where the candidate numbers sums to T.
 
  Each number in C may only be used once in the combination.
 

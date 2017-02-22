@@ -7,10 +7,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/4/17.
  368. Largest Divisible Subset
- Total Accepted: 17173
- Total Submissions: 52142
  Difficulty: Medium
- Contributors: Admin
+
  Given a set of distinct positive integers, find the largest subset such that every pair (Si, Sj) of elements in this subset satisfies: Si % Sj = 0 or Sj % Si = 0.
 
  If there are multiple solutions, return any subset is fine.

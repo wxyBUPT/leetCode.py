@@ -3,10 +3,8 @@ package main.java.bupt.wxy.binarysearch.searchanswer;
 /**
  * Created by xiyuanbupt on 1/12/17.
  287. Find the Duplicate Number   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 50901
- Total Submissions: 121837
  Difficulty: Hard
- Contributors: Admin
+
  Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive),
  prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
 

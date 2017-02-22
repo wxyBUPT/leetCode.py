@@ -5,11 +5,8 @@ import java.util.Stack;
 /**
  * Created by xiyuanbupt on 1/12/17.
  316. Remove Duplicate Letters
-
- Total Accepted: 24881
- Total Submissions: 87100
  Difficulty: Hard
- Contributors: Admin
+
  Given a string which contains only lowercase letters, remove duplicate letters so that every letter appear once and only once.
  You must make sure your result is the smallest in lexicographical order among all possible results.
 

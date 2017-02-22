@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dp;
 /**
  * Created by xiyuanbupt on 1/13/17.
  303. Range Sum Query - Immutable
- Total Accepted: 55400
- Total Submissions: 211234
  Difficulty: Easy
- Contributors: Admin
+
  Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
 
  Example:

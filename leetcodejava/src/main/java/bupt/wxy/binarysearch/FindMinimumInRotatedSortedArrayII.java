@@ -3,10 +3,8 @@ package main.java.bupt.wxy.binarysearch;
 /**
  * Created by xiyuanbupt on 1/15/17.
  154. Find Minimum in Rotated Sorted Array II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 68496
- Total Submissions: 189272
  Difficulty: Hard
- Contributors: Admin
+
  Follow up for "Find Minimum in Rotated Sorted Array":
  What if duplicates are allowed?
 

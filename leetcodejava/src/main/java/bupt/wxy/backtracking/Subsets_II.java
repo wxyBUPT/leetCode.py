@@ -7,10 +7,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/4/17.
  90. Subsets II
- Total Accepted: 92285
- Total Submissions: 273383
  Difficulty: Medium
- Contributors: Admin
+
  Given a collection of integers that might contain duplicates, nums, return all possible subsets.
 
  Note: The solution set must not contain duplicate subsets.

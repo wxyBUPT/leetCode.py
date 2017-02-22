@@ -2,11 +2,9 @@ package main.java.bupt.wxy.dfs.wonderful;
 
 /**
  * Created by xiyuanbupt on 1/6/17.
- 109. Convert Sorted List to Binary Search Tree   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 91720
- Total Submissions: 280540
+ 109. Convert Sorted List to Binary Search Tree
  Difficulty: Medium
- Contributors: Admin
+
  Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
  */
 public class ConvertSortedListToBinarySearchTree {

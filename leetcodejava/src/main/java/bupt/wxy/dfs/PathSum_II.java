@@ -6,10 +6,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/5/17.
  113. Path Sum II
- Total Accepted: 108357
- Total Submissions: 345741
  Difficulty: Medium
- Contributors: Admin
+
  Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
  For example:

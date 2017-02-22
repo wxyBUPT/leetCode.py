@@ -3,10 +3,8 @@ package main.java.bupt.wxy.bitmanipulation;
 /**
  * Created by xiyuanbupt on 1/15/17.
  260. Single Number III
- Total Accepted: 56818
- Total Submissions: 115391
  Difficulty: Medium
- Contributors: Admin
+
  Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.
 
  For example:

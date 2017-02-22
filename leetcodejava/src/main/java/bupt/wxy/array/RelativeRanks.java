@@ -5,12 +5,10 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 2/13/17.
  506. Relative Ranks
- Description  Submission  Solutions  Add to List
- Total Accepted: 3458
- Total Submissions: 6845
  Difficulty: Easy
- Contributors: taylorty
- Given scores of N athletes, find their relative ranks and the people with the top three highest scores, who will be awarded medals: "Gold Medal", "Silver Medal" and "Bronze Medal".
+
+ Given scores of N athletes, find their relative ranks and the people with the top
+ three highest scores, who will be awarded medals: "Gold Medal", "Silver Medal" and "Bronze Medal".
 
  Example 1:
  Input: [5, 4, 3, 2, 1]

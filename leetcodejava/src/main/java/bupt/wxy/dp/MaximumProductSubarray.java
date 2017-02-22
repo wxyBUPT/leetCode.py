@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dp;
 /**
  * Created by xiyuanbupt on 1/12/17.
  152. Maximum Product Subarray
- Total Accepted: 84607
- Total Submissions: 346131
  Difficulty: Medium
- Contributors: Admin
+
  Find the contiguous subarray within an array (containing at least one number) which has the largest product.
 
  For example, given the array [2,3,-2,4],

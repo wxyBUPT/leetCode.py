@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dp;
 /**
  * Created by xiyuanbupt on 1/8/17.
  63. Unique Paths II
- Total Accepted: 88594
- Total Submissions: 286671
  Difficulty: Medium
- Contributors: Admin
+
  Follow up for "Unique Paths":
 
  Now consider if some obstacles are added to the grids. How many unique paths would there be?

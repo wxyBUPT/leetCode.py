@@ -3,10 +3,8 @@ package main.java.bupt.wxy.greedy;
 /**
  * Created by xiyuanbupt on 1/9/17.
  402. Remove K Digits
- Total Accepted: 11672
- Total Submissions: 44687
  Difficulty: Medium
- Contributors: Admin
+
  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
 
  Note:

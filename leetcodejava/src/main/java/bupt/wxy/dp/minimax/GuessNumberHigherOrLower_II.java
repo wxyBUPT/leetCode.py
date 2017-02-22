@@ -2,11 +2,9 @@ package main.java.bupt.wxy.dp.minimax;
 
 /**
  * Created by xiyuanbupt on 1/4/17.
- 375. Guess Number Higher or Lower II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 14300
- Total Submissions: 40941
+ 375. Guess Number Higher or Lower II
  Difficulty: Medium
- Contributors: Admin
+
  We are playing the Guess Game. The game is as follows:
 
  I pick a number from 1 to n. You have to guess which number I picked.

@@ -2,11 +2,9 @@ package main.java.bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 1/3/17.
- 275. H-Index II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 38953
- Total Submissions: 116153
+ 275. H-Index II
  Difficulty: Medium
- Contributors: Admin
+
  Follow up for H-Index: What if the citations array is sorted in ascending order? Could you optimize your algorithm?
  */
 public class H_Index_II {

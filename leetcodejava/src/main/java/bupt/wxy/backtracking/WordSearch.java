@@ -3,10 +3,8 @@ package main.java.bupt.wxy.backtracking;
 /**
  * Created by xiyuanbupt on 1/10/17.
  79. Word Search
- Total Accepted: 105483
- Total Submissions: 416634
- Difficulty: Medium
  Contributors: Admin
+
  Given a 2D board and a word, find if the word exists in the grid.
 
  The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.

@@ -8,11 +8,8 @@ import java.util.Queue;
 /**
  * Created by xiyuanbupt on 2/13/17.
  513. Find Bottom Left Tree Value
- Description  Submission  Solutions  Add to List
- Total Accepted: 1421
- Total Submissions: 3111
  Difficulty: Medium
- Contributors: abhijeet17
+
  Given a binary tree, find the leftmost value in the last row of the tree.
 
  Example 1:
@@ -43,7 +40,7 @@ import java.util.Queue;
  */
 public class FindBottomLeftTreeValue {
 
-    // 12ms 做的时候还没有多少人提交
+
     public int findBottomLeftValue(TreeNode root) {
         Queue<TreeNode> queue=new ArrayDeque<>();
         queue.offer(root);

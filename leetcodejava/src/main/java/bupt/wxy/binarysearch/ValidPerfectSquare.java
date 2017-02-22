@@ -3,10 +3,8 @@ package main.java.bupt.wxy.binarysearch;
 /**
  * Created by xiyuanbupt on 1/3/17.
  367. Valid Perfect Square
- Total Accepted: 26215
- Total Submissions: 70223
  Difficulty: Medium
- Contributors: Admin
+
  Given a positive integer num, write a function which returns True if num is a perfect square else False.
 
  Note: Do not use any built-in library function such as sqrt.

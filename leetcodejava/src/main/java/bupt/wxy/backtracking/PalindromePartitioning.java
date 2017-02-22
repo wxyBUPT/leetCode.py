@@ -6,10 +6,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/16/17.
  131. Palindrome Partitioning
- Total Accepted: 84283
- Total Submissions: 272854
  Difficulty: Medium
- Contributors: Admin
+
  Given a string s, partition s such that every substring of the partition is a palindrome.
 
  Return all possible palindrome partitioning of s.

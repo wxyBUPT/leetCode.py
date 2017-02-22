@@ -3,10 +3,8 @@ package main.java.bupt.wxy.binarysearchtree;
 /**
  * Created by xiyuanbupt on 1/12/17.
  315. Count of Smaller Numbers After Self
- Total Accepted: 25082
- Total Submissions: 74817
  Difficulty: Hard
- Contributors: Admin
+
  You are given an integer array nums and you have to return a new counts array. The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
 
  Example:

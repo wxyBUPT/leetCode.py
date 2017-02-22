@@ -4,11 +4,9 @@ import java.util.Arrays;
 
 /**
  * Created by xiyuanbupt on 1/10/17.
- 304. Range Sum Query 2D - Immutable   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 25913
- Total Submissions: 114212
+ 304. Range Sum Query 2D - Immutable
  Difficulty: Medium
- Contributors: Admin
+
  Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
 
  Range Sum Query 2D

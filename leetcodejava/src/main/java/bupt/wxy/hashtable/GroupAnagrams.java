@@ -8,10 +8,8 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 1/8/17.
  49. Group Anagrams
- Total Accepted: 109481
- Total Submissions: 344533
  Difficulty: Medium
- Contributors: Admin
+
  Given an array of strings, group anagrams together.
 
  For example, given: ["eat", "tea", "tan", "ate", "nat", "bat"],

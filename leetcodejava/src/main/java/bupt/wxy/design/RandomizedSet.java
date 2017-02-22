@@ -2,11 +2,9 @@ package main.java.bupt.wxy.design;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
- 380. Insert Delete GetRandom O(1)   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 16455
- Total Submissions: 42845
+ 380. Insert Delete GetRandom O(1)
  Difficulty: Hard
- Contributors: Admin
+
  Design a data structure that supports all following operations in average O(1) time.
 
  insert(val): Inserts an item val to the set if not already present.

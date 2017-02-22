@@ -2,11 +2,9 @@ package main.java.bupt.wxy.array;
 
 /**
  * Created by xiyuanbupt on 1/16/17.
- 41. First Missing Positive   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 85421
- Total Submissions: 342367
+ 41. First Missing Positive
  Difficulty: Hard
- Contributors: Admin
+
  Given an unsorted integer array, find the first missing positive integer.
 
  For example,

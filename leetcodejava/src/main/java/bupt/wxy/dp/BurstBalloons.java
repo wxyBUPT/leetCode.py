@@ -4,10 +4,8 @@ package main.java.bupt.wxy.dp;
  * Created by xiyuanbupt on 2/14/17.
  312. Burst Balloons
  Description  Submission  Solutions  Add to List
- Total Accepted: 22196
- Total Submissions: 53004
  Difficulty: Hard
- Contributors: Admin
+
  Given n balloons, indexed from 0 to n-1. Each balloon is painted with a number on it represented by array nums. You are asked to burst all the balloons. If the you burst balloon i you will get nums[left] * nums[i] * nums[right] coins. Here left and right are adjacent indices of i. After the burst, the left and right then becomes adjacent.
 
  Find the maximum coins you can collect by bursting the balloons wisely.
@@ -28,7 +26,7 @@ package main.java.bupt.wxy.dp;
  */
 public class BurstBalloons {
 
-    public int maxCoinsWro(int[] nums){
+    public int maxCoins(int[] nums){
         if(nums.length<1)return 0;
         int[][] dp=new int[nums.length][nums.length];
 
@@ -45,7 +43,7 @@ public class BurstBalloons {
         return dp[0][nums.length-1];
     }
 
-    public int maxCoins(int[] nums) {
+    public int maxCoinsOther(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
 
         int[][] dp = new int[nums.length][nums.length];

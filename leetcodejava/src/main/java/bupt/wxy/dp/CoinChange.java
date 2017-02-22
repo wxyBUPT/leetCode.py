@@ -1,16 +1,12 @@
 package main.java.bupt.wxy.dp;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 /**
  * Created by xiyuanbupt on 1/11/17.
  322. Coin Change
- Total Accepted: 46464
- Total Submissions: 178956
  Difficulty: Medium
- Contributors: Admin
- You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount.
+
+ You are given coins of different denominations and a total amount of money amount.
+ Write a function to compute the fewest number of coins that you need to make up that amount.
  If that amount of money cannot be made up by any combination of the coins, return -1.
 
  Example 1:
@@ -42,6 +38,5 @@ public class CoinChange {
             }
         }
         return dp[amount];
-
     }
 }

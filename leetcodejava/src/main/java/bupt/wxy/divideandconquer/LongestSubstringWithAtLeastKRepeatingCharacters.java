@@ -2,11 +2,9 @@ package main.java.bupt.wxy.divideandconquer;
 
 /**
  * Created by xiyuanbupt on 1/3/17.
- 395. Longest Substring with At Least K Repeating Characters   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 8363
- Total Submissions: 23682
+ 395. Longest Substring with At Least K Repeating Characters
  Difficulty: Medium
- Contributors: Admin
+
  Find the length of the longest substring T of a given string (consists of lowercase letters only) such that every character in T appears no less than k times.
 
  Example 1:

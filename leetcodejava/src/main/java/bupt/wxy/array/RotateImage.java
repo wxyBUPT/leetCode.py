@@ -2,11 +2,9 @@ package main.java.bupt.wxy.array;
 
 /**
  * Created by xiyuanbupt on 1/3/17.
- 48. Rotate Image   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 92293
- Total Submissions: 249300
+ 48. Rotate Image
  Difficulty: Medium
- Contributors: Admin
+
  You are given an n x n 2D matrix representing an image.
 
  Rotate the image by 90 degrees (clockwise).

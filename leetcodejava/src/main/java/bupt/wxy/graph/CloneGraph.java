@@ -5,10 +5,8 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 1/16/17.
  133. Clone Graph   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 94263
- Total Submissions: 376518
  Difficulty: Medium
- Contributors: Admin
+
  Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors.
 
 

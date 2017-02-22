@@ -5,11 +5,8 @@ import org.omg.PortableInterceptor.INACTIVE;
 /**
  * Created by xiyuanbupt on 2/13/17.
  516. Longest Palindromic Subsequence
- Description  Submission  Solutions  Add to List
- Total Accepted: 995
- Total Submissions: 2520
  Difficulty: Medium
- Contributors: Stomach_ache
+
  Given a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.
 
  Example 1:

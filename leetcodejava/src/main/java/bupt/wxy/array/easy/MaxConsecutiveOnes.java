@@ -1,13 +1,10 @@
-package main.java.bupt.wxy.array;
+package main.java.bupt.wxy.array.easy;
 
 /**
  * Created by xiyuanbupt on 2/14/17.
  485. Max Consecutive Ones
- Description  Submission  Solutions  Add to List
- Total Accepted: 17477
- Total Submissions: 31445
  Difficulty: Easy
- Contributors: Stomach_ache
+
  Given a binary array, find the maximum number of consecutive 1s in this array.
 
  Example 1:

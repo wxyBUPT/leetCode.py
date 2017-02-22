@@ -4,11 +4,9 @@ import java.util.*;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
- 187. Repeated DNA Sequences   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 64584
- Total Submissions: 217949
+ 187. Repeated DNA Sequences
  Difficulty: Medium
- Contributors: Admin
+
  All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: "ACGAATTCCG". When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
 
  Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.

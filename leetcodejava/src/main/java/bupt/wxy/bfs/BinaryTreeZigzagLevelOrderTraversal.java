@@ -5,10 +5,8 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 1/8/17.
  103. Binary Tree Zigzag Level Order Traversal
- Total Accepted: 84023
- Total Submissions: 261138
  Difficulty: Medium
- Contributors: Admin
+
  Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
 
  For example:

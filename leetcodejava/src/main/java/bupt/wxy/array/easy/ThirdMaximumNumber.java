@@ -8,11 +8,10 @@ import java.util.TreeSet;
 /**
  * Created by xiyuanbupt on 1/15/17.
  414. Third Maximum Number   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 17246
- Total Submissions: 64482
+
  Difficulty: Easy
- Contributors: ZengRed , 1337c0d3r
- Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+ Given a non-empty array of integers, return the third maximum number in this array.
+ If it does not exist, return the maximum number. The time complexity must be in O(n).
 
  Example 1:
  Input: [3, 2, 1]
@@ -55,7 +54,6 @@ public class ThirdMaximumNumber {
             if(index<3)
                 maxs[index]=num;
         }
-        System.out.println(Arrays.toString(maxs));
         if(maxs[2]==Integer.MIN_VALUE&&!containsMin||maxs[2]==maxs[1])return maxs[0];
         return maxs[2];
     }

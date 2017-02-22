@@ -5,10 +5,8 @@ import java.util.Arrays;
 /**
  * Created by xiyuanbupt on 1/17/17.
  300. Longest Increasing Subsequence
- Total Accepted: 60997
- Total Submissions: 163255
  Difficulty: Medium
- Contributors: Admin
+
  Given an unsorted array of integers, find the length of longest increasing subsequence.
 
  For example,

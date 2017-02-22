@@ -2,11 +2,9 @@ package main.java.bupt.wxy.dfs;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
- 117. Populating Next Right Pointers in Each Node II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 81241
- Total Submissions: 242595
+ 117. Populating Next Right Pointers in Each Node II
  Difficulty: Hard
- Contributors: Admin
+
  Follow up for problem "Populating Next Right Pointers in Each Node".
 
  What if the given tree could be any binary tree? Would your previous solution still work?

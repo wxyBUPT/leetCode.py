@@ -3,8 +3,6 @@ package main.java.bupt.wxy.greedy;
 /**
  * Created by xiyuanbupt on 2/2/17.
  45. Jump Game II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 83383
- Total Submissions: 320461
  Difficulty: Hard
  Contributors: Admin
  Given an array of non-negative integers, you are initially positioned at the first index of the array.

@@ -3,10 +3,8 @@ package main.java.bupt.wxy.binarysearch.easy;
 /**
  * Created by xiyuanbupt on 1/13/17.
  374. Guess Number Higher or Lower   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 34707
- Total Submissions: 103367
  Difficulty: Easy
- Contributors: Admin
+
  We are playing the Guess Game. The game is as follows:
 
  I pick a number from 1 to n. You have to guess which number I picked.

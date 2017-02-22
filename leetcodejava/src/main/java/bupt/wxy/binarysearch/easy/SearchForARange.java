@@ -3,10 +3,8 @@ package main.java.bupt.wxy.binarysearch.easy;
 /**
  * Created by xiyuanbupt on 1/8/17.
  34. Search for a Range
- Total Accepted: 115117
- Total Submissions: 373175
  Difficulty: Medium
- Contributors: Admin
+
  Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
 
  Your algorithm's runtime complexity must be in the order of O(log n).

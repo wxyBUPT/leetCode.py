@@ -8,10 +8,8 @@ import java.util.Set;
 /**
  * Created by xiyuanbupt on 1/17/17.
  127. Word Ladder   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 107716
- Total Submissions: 558898
  Difficulty: Medium
- Contributors: Admin
+
  Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
 
  Only one letter can be changed at a time

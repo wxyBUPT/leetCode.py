@@ -2,11 +2,9 @@ package main.java.bupt.wxy.binarysearchtree;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
- 352. Data Stream as Disjoint Intervals   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 9551
- Total Submissions: 24584
+ 352. Data Stream as Disjoint Intervals
  Difficulty: Hard
- Contributors: Admin
+
  Given a data stream input of non-negative integers a1, a2, ..., an, ..., summarize the numbers seen so far as a list of disjoint intervals.
 
  For example, suppose the integers from the data stream are 1, 3, 7, 2, 6, ..., then the summary will be:

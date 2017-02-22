@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dfs;
 /**
  * Created by xiyuanbupt on 1/8/17.
  130. Surrounded Regions
- Total Accepted: 70898
- Total Submissions: 405574
  Difficulty: Medium
- Contributors: Admin
+
  Given a 2D board containing 'X' and 'O' (the letter O), capture all regions surrounded by 'X'.
 
  A region is captured by flipping all 'O's into 'X's in that surrounded region.

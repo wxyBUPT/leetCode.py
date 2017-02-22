@@ -8,11 +8,8 @@ import java.util.Queue;
 /**
  * Created by xiyuanbupt on 2/13/17.
  515. Find Largest Value in Each Tree Row
- Description  Submission  Solutions  Add to List
- Total Accepted: 1240
- Total Submissions: 2718
  Difficulty: Medium
- Contributors: love_FDU_llp
+
  You need to find the largest value in each row of a binary tree.
 
  Example:

@@ -7,11 +7,9 @@ import java.util.TreeSet;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
- 220. Contains Duplicate III   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 45167
- Total Submissions: 231087
+ 220. Contains Duplicate III
  Difficulty: Medium
- Contributors: Admin
+
  Given an array of integers, find out whether there are two distinct indices i and j in the array such that the absolute difference between nums[i] and nums[j] is at most t and the absolute difference between i and j is at most k.
  */
 

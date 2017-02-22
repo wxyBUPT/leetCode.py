@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dp.simple;
 /**
  * Created by xiyuanbupt on 1/15/17.
  338. Counting Bits
- Total Accepted: 61288
- Total Submissions: 103022
  Difficulty: Medium
- Contributors: Admin
+
  Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤num
  calculate the number of 1's in their binary representation and return them as an array.
 

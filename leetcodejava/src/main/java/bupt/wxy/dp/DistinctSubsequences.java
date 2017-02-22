@@ -4,10 +4,7 @@ package main.java.bupt.wxy.dp;
  * Created by xiyuanbupt on 1/16/17.
  115. Distinct Subsequences
 
- Total Accepted: 63746
- Total Submissions: 208164
  Difficulty: Hard
- Contributors: Admin
 
  Given a string S and a string T, count the number of distinct subsequences of T in S.
 

@@ -5,10 +5,8 @@ import java.util.Arrays;
 /**
  * Created by xiyuanbupt on 1/11/17.
  221. Maximal Square
- Total Accepted: 49407
- Total Submissions: 182521
  Difficulty: Medium
- Contributors: Admin
+
  Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
  For example, given the following matrix:

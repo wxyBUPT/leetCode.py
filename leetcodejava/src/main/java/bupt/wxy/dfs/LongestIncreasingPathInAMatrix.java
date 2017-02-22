@@ -3,10 +3,8 @@ package main.java.bupt.wxy.dfs;
 /**
  * Created by xiyuanbupt on 1/15/17.
  329. Longest Increasing Path in a Matrix
- Total Accepted: 28843
- Total Submissions: 81357
  Difficulty: Hard
- Contributors: Admin
+
  Given an integer matrix, find the length of the longest increasing path.
 
  From each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move outside of the boundary (i.e. wrap-around is not allowed).

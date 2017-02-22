@@ -5,10 +5,8 @@ import java.util.Arrays;
 /**
  * Created by xiyuanbupt on 1/12/17.
  135. Candy
- Total Accepted: 62916
- Total Submissions: 263137
  Difficulty: Hard
- Contributors: Admin
+
  There are N children standing in a line. Each child is assigned a rating value.
 
  You are giving candies to these children subjected to the following requirements:

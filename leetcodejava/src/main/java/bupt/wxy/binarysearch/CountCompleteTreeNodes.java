@@ -4,10 +4,7 @@ package main.java.bupt.wxy.binarysearch;
  * Created by xiyuanbupt on 1/12/17.
  222. Count Complete Tree Nodes
 
- Total Accepted: 51848
- Total Submissions: 192438
  Difficulty: Medium
- Contributors: Admin
 
  Given a complete binary tree, count the number of nodes.
 

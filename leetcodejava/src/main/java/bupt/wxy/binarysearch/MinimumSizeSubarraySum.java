@@ -4,8 +4,6 @@ package main.java.bupt.wxy.binarysearch;
  * Created by xiyuanbupt on 1/10/17.
  209. Minimum Size Subarray Sum
 
- Total Accepted: 65260
- Total Submissions: 228662
  Difficulty: Medium
 
  Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s.

@@ -6,11 +6,9 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 1/8/17.
- 95. Unique Binary Search Trees II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 72373
- Total Submissions: 236724
+ 95. Unique Binary Search Trees II
  Difficulty: Medium
- Contributors: Admin
+
  Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1...n.
 
  For example,

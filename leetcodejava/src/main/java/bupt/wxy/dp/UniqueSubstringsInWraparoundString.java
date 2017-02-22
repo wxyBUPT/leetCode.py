@@ -3,10 +3,7 @@ package main.java.bupt.wxy.dp;
 /**
  * Created by xiyuanbupt on 1/12/17.
  467. Unique Substrings in Wraparound String
- Total Accepted: 2866
- Total Submissions: 9462
  Difficulty: Medium
- Contributors: ramanjot
 
  Consider the string s to be the infinite wraparound string of "abcdefghijklmnopqrstuvwxyz",
  so s will look like this: "...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd....".
@@ -31,7 +28,6 @@ package main.java.bupt.wxy.dp;
  Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
  */
 public class UniqueSubstringsInWraparoundString {
-
 
     // 子字符串之间有一个相互包含的关系
     // 子字符串的个数又能通过dp来求

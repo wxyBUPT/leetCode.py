@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 1/10/17.
- 228. Summary Ranges   Add to List QuestionEditorial Solution  My Submissions
+ 228. Summary Ranges
 
  Difficulty: Medium
  Given a sorted integer array without duplicates, return the summary of its ranges.

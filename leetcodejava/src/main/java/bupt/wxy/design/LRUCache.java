@@ -2,11 +2,9 @@ package main.java.bupt.wxy.design;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
- 146. LRU Cache   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 105771
- Total Submissions: 661846
+ 146. LRU Cache
  Difficulty: Hard
- Contributors: Admin
+
  Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.
 
  get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
