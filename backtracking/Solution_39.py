@@ -1,6 +1,8 @@
 #coding=utf-8
 __author__ = 'xiyuanbupt'
 # e-mail : xywbupt@gmail.com
+import bisect
+bisect.bisect()
 
 '''
 39. Combination Sum   Add to List QuestionEditorial Solution  My Submissions

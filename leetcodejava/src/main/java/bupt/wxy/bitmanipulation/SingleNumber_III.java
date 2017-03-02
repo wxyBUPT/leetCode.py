@@ -25,7 +25,7 @@ package main.java.bupt.wxy.bitmanipulation;
  */
 
 /**
- * 利用位操作, 但是我也不是很理解
+ * 两个数位与, 总会有一个最低位不同
  */
 public class SingleNumber_III {
 
