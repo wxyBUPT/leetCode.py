@@ -24,7 +24,7 @@ package main.java.bupt.wxy.twopoint;
 /**
  * 当两点满足某条件即可
  */
-public class Solution_76 {
+public class MinmumWindowSubstring {
 
     public String minWindow(String s, String t) {
         int[] map=new int[128];

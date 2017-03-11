@@ -3,11 +3,8 @@ __author__ = 'xiyuanbupt'
 # e-mail : xywbupt@gmail.com
 import math
 '''
-59. Spiral Matrix II   Add to List QuestionEditorial Solution  My Submissions
-Total Accepted: 69680
-Total Submissions: 184384
+59. Spiral Matrix II
 Difficulty: Medium
-Contributors: Admin
 Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
 
 For example,
@@ -41,7 +38,6 @@ class Solution(object):
             i+=di
             j+=dj
         return A
-
 
 if __name__ == "__main__":
     sl = Solution()

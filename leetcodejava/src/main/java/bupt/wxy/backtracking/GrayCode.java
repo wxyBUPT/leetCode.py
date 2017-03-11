@@ -7,11 +7,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 2/28/17.
  89. Gray Code Add to List
- Description  Submission  Solutions
- Total Accepted: 82012
- Total Submissions: 206074
  Difficulty: Medium
- Contributors: Admin
+
  The gray code is a binary numeral system where two successive values differ in only one bit.
 
  Given a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.

@@ -32,6 +32,7 @@ public class PreOrder {
         TreeNode curr=root;
         while (!stack.isEmpty()||curr!=null){
             while (curr!=null){
+                // visit
                 res.add(curr.val);
                 stack.push(curr);
                 curr=curr.left;

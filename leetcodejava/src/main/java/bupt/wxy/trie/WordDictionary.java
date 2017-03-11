@@ -3,10 +3,7 @@ package main.java.bupt.wxy.trie;
 /**
  * Created by xiyuanbupt on 1/11/17.
  211. Add and Search Word - Data structure design   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 42703
- Total Submissions: 212685
  Difficulty: Medium
- Contributors: Admin
  Design a data structure that supports the following two operations:
 
  void addWord(word)

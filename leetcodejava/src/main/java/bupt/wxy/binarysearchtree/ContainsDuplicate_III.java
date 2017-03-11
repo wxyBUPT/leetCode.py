@@ -21,7 +21,6 @@ import java.util.TreeSet;
  */
 public class ContainsDuplicate_III {
 
-
     // %32.41%
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         if(k<1||t<0)return false;

@@ -4,10 +4,7 @@ package main.java.bupt.wxy.tree;
  * Created by xiyuanbupt on 3/1/17.
  111. Minimum Depth of Binary Tree Add to List
  Description  Submission  Solutions
- Total Accepted: 151482
- Total Submissions: 466267
  Difficulty: Easy
- Contributors: Admin
  Given a binary tree, find its minimum depth.
 
  The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.

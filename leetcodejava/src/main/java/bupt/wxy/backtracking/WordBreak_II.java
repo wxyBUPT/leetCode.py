@@ -3,10 +3,8 @@ package main.java.bupt.wxy.backtracking;
 /**
  * Created by xiyuanbupt on 1/16/17.
  140. Word Break II
- Total Accepted: 77199
- Total Submissions: 347415
  Difficulty: Hard
- Contributors: Admin
+
  Given a non-empty string s and a dictionary wordDict containing a list of non-empty words,
  add spaces in s to construct a sentence where each word is a valid dictionary word. You may assume the dictionary does not contain duplicate words.
 

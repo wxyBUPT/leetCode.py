@@ -7,10 +7,7 @@ import java.util.PriorityQueue;
 /**
  * Created by xiyuanbupt on 1/16/17.
  480. Sliding Window Median
- Total Accepted: 1475
- Total Submissions: 4520
  Difficulty: Hard
- Contributors: YutingLiu
  Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.
 
  Examples:

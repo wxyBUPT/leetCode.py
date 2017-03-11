@@ -5,11 +5,8 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 2/28/17.
  101. Symmetric Tree Add to List
- Description  Submission  Solutions
- Total Accepted: 158139
- Total Submissions: 422482
  Difficulty: Easy
- Contributors: Admin
+
  Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
 
  For example, this binary tree [1,2,2,3,4,4,3] is symmetric:

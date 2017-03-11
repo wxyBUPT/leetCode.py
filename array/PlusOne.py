@@ -3,11 +3,8 @@ __author__ = 'xiyuanbupt'
 # e-mail : xywbupt@gmail.com
 
 '''
-66. Plus One   Add to List QuestionEditorial Solution  My Submissions
-Total Accepted: 139271
-Total Submissions: 380334
+66. Plus One
 Difficulty: Easy
-Contributors: Admin
 Given a non-negative number represented as an array of digits, plus one to the number.
 
 The digits are stored such that the most significant digit is at the head of the list.

@@ -3,10 +3,8 @@ package main.java.bupt.wxy.tree;
 /**
  * Created by xiyuanbupt on 1/3/17.
  450. Delete Node in a BST
- Total Accepted: 4723
- Total Submissions: 13742
  Difficulty: Medium
- Contributors: tsipporah5945
+
  Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
 
  Basically, the deletion can be divided into two stages:

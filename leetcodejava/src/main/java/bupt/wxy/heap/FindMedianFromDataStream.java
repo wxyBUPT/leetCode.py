@@ -6,10 +6,8 @@ import java.util.PriorityQueue;
 /**
  * Created by xiyuanbupt on 1/3/17.
  295. Find Median from Data Stream
- Total Accepted: 31735
- Total Submissions: 136591
  Difficulty: Hard
- Contributors: Admin
+
  Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.
 
  Examples:

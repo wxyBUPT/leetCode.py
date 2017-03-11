@@ -27,7 +27,7 @@ import java.util.Stack;
 /**
  * 求最大面积
  */
-public class Solution_84 {
+public class LargestRectangleInHistogram {
 
     public int largestRectangleArea(int[] heights) {
         int len=heights.length;

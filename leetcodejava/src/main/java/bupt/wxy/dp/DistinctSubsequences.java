@@ -17,7 +17,7 @@ package main.java.bupt.wxy.dp;
  */
 
 /**
- * 本题目和两点问题  Solution_76 有点类似, 但是本题目是有序的
+ * 本题目和两点问题  MinmumWindowSubstring 有点类似, 但是本题目是有序的
  * 第一想法是使用
  * 因为条件更加苛刻, 所有dp比较容易解决
  */

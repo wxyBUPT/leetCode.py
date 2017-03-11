@@ -41,4 +41,10 @@ public class boyermoore {
         if(coutn2>nums.length/3)res.add(candidate2);
         return res;
     }
+
+    public static void main(String[] args){
+        Integer a=new Integer(10);
+        int b=10;
+        System.out.println(a==b);
+    }
 }

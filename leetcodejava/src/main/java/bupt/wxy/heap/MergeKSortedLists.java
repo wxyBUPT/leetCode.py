@@ -3,10 +3,7 @@ package main.java.bupt.wxy.heap;
 /**
  * Created by xiyuanbupt on 1/13/17.
  23. Merge k Sorted Lists   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 124375
- Total Submissions: 479365
  Difficulty: Hard
- Contributors: Admin
  Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
  */
 

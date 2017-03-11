@@ -3,10 +3,8 @@ package main.java.bupt.wxy.tree;
 /**
  * Created by xiyuanbupt on 1/4/17.
  114. Flatten Binary Tree to Linked List   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 108505
- Total Submissions: 324065
  Difficulty: Medium
- Contributors: Admin
+
  Given a binary tree, flatten it to a linked list in-place.
 
  For example,

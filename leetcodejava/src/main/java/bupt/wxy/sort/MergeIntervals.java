@@ -5,10 +5,8 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 2/2/17.
  56. Merge Intervals   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 102965
- Total Submissions: 359882
  Difficulty: Medium
- Contributors: Admin
+
  Given a collection of intervals, merge all overlapping intervals.
 
  For example,

@@ -3,10 +3,7 @@ package main.java.bupt.wxy.string;
 /**
  * Created by xiyuanbupt on 1/11/17.
  5. Longest Palindromic Substring
- Total Accepted: 163429
- Total Submissions: 666070
  Difficulty: Medium
- Contributors: Admin
  Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
  Example:

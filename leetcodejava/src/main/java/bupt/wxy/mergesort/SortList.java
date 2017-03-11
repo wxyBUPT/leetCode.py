@@ -30,6 +30,7 @@ public class SortList {
     }
 
     ListNode merge(ListNode l1, ListNode l2){
+        
         if(l1==null||l2==null)return l1==null?l2:l1;
         ListNode pre=new ListNode(0);
         ListNode curr=pre;

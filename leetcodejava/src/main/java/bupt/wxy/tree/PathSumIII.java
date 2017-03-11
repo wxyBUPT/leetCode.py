@@ -4,10 +4,7 @@ package main.java.bupt.wxy.tree;
  * Created by xiyuanbupt on 1/13/17.
  437. Path Sum III
 
- Total Accepted: 13639
- Total Submissions: 35264
  Difficulty: Easy
- Contributors: Stomach_ache
 
  You are given a binary tree in which each node contains an integer value.
 

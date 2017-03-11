@@ -6,12 +6,8 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 2/28/17.
- 77. Combinations Add to List
- Description  Submission  Solutions
- Total Accepted: 105798
- Total Submissions: 276639
+ 77. Combinations
  Difficulty: Medium
- Contributors: Admin
  Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
  For example,

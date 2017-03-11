@@ -5,11 +5,9 @@ import java.util.Map;
 
 /**
  * Created by xiyuanbupt on 1/7/17.
- 128. Longest Consecutive Sequence   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 89106
- Total Submissions: 252581
+ 128. Longest Consecutive Sequence
  Difficulty: Hard
- Contributors: Admin
+
  Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 
  For example,
@@ -19,7 +17,7 @@ import java.util.Map;
  Your algorithm should run in O(n) complexity.
  */
 // 在这里体会一下unionfind, 这里是借助于hashmap实现并查集, 并且一般要求在On 时间复杂度解决问题要考虑使用hashmap
-public class Solution_128 {
+public class LongestConsecutiveSequence {
 
     public int longestConsecutive(int[] nums) {
         Map<Integer,Integer> map=new HashMap<>();

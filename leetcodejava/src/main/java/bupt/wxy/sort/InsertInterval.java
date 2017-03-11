@@ -7,11 +7,9 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 2/2/17.
- 57. Insert Interval   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 82396
- Total Submissions: 311171
+ 57. Insert Interval
  Difficulty: Hard
- Contributors: Admin
+
  Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
 
  You may assume that the intervals were initially sorted according to their start times.

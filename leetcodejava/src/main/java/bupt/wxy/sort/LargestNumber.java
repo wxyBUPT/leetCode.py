@@ -5,10 +5,8 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 1/11/17.
  179. Largest Number
- Total Accepted: 63776
- Total Submissions: 297897
  Difficulty: Medium
- Contributors: Admin
+
  Given a list of non negative integers, arrange them such that they form the largest number.
 
  For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.

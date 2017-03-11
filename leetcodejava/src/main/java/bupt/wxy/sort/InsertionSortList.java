@@ -3,10 +3,8 @@ package main.java.bupt.wxy.sort;
 /**
  * Created by xiyuanbupt on 1/4/17.
  147. Insertion Sort List
- Total Accepted: 89636
- Total Submissions: 282430
  Difficulty: Medium
- Contributors: Admin
+
  Sort a linked list using insertion sort.
 
  Subscribe to see which companies asked this question

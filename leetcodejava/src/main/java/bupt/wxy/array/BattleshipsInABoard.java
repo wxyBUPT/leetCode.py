@@ -3,11 +3,8 @@ package main.java.bupt.wxy.array;
 /**
  * Created by xiyuanbupt on 2/28/17.
  419. Battleships in a Board Add to List
- Description  Submission  Solutions
- Total Accepted: 16892
- Total Submissions: 27959
  Difficulty: Medium
- Contributors: ben65
+
  Given an 2D board, count how many battleships are in it. The battleships are represented with 'X's, empty slots are represented with '.'s. You may assume the following rules:
 
  You receive a valid board, made of only battleships or empty slots.

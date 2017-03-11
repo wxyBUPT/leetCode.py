@@ -2,12 +2,7 @@ package main.java.bupt.wxy.string;
 
 /**
  * Created by xiyuanbupt on 2/26/17.
- 520. Detect Capital Add to List
- Description  Submission  Solutions
- Total Accepted: 6272
- Total Submissions: 11501
- Difficulty: Easy
- Contributors: love_FDU_llp
+ 520. Detect Capital
  Given a word, you need to judge whether the usage of capitals in it is right or not.
 
  We define the usage of capitals in a word to be right when one of the following cases holds:

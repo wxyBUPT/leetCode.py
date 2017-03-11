@@ -3,10 +3,7 @@ package main.java.bupt.wxy.twopoint;
 /**
  * Created by xiyuanbupt on 1/3/17.
  11. Container With Most Water
- Total Accepted: 109482
- Total Submissions: 303958
- Difficulty: Medium
- Contributors: Admin
+
  Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai).
  n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0).
  Find two lines, which together with x-axis forms a container, such that the container contains the most water.

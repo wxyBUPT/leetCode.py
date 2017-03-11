@@ -2,12 +2,9 @@ package main.java.bupt.wxy.twopoint;
 
 /**
  * Created by xiyuanbupt on 3/2/17.
- 424. Longest Repeating Character Replacement Add to List
- Description  Submission  Solutions
- Total Accepted: 8280
- Total Submissions: 20323
+ 424. Longest Repeating Character Replacement
  Difficulty: Medium
- Contributors: Admin
+
  Given a string that consists of only uppercase English letters, you can replace any letter in the string with another letter at most k times. Find the length of a longest substring containing all repeating letters you can get after performing the above operations.
 
  Note:

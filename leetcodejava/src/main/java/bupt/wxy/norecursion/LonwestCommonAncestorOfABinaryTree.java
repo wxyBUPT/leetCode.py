@@ -3,10 +3,8 @@ package main.java.bupt.wxy.norecursion;
 /**
  * Created by xiyuanbupt on 1/8/17.
  236. Lowest Common Ancestor of a Binary Tree   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 78041
- Total Submissions: 266400
  Difficulty: Medium
- Contributors: Admin
+
  Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
  According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
@@ -30,7 +28,7 @@ import java.util.Stack;
 /**
  * 使用后序遍历的非递归方式
  */
-public class Solution_236 {
+public class LonwestCommonAncestorOfABinaryTree {
 
     //
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -62,8 +60,8 @@ public class Solution_236 {
         return p_path.get(i-1);
     }
 
-    // 本题目还有递归的遍历方式
-    // 使用递归方式一般比使用非递归的方式快一些
+    // 找到其中任意一个节点位置, 或者找到两个节点最低的公共祖先
+    // 然后利用相关逻辑来判断
     public TreeNode recursion(TreeNode root, TreeNode p, TreeNode q){
         if(root==null||root==p||root==q)return root;
         TreeNode left=recursion(root.left,p,q);

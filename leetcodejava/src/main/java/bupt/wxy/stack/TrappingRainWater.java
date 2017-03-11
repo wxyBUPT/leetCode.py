@@ -4,11 +4,9 @@ import java.util.Stack;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
- 42. Trapping Rain Water   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 95563
- Total Submissions: 270643
+ 42. Trapping Rain Water
  Difficulty: Hard
- Contributors: Admin
+
  Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 
  For example,
@@ -19,7 +17,7 @@ import java.util.Stack;
 
  Subscribe to see which companies asked this question
  */
-public class Solution_42 {
+public class TrappingRainWater {
 
     // 使用栈就是这么一点一点的算
     public int trap(int[] height) {

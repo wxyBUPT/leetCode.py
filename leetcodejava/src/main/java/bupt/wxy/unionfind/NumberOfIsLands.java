@@ -2,11 +2,8 @@ package main.java.bupt.wxy.unionfind;
 
 /**
  * Created by xiyuanbupt on 1/7/17.
- 200. Number of Islands   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 81565
- Total Submissions: 253251
+ 200. Number of Islands
  Difficulty: Medium
- Contributors: Admin
  Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
  Example 1:
@@ -29,7 +26,7 @@ package main.java.bupt.wxy.unionfind;
 /**
  * 其实本题目可以使用dfs 和bfs解决,但是看到标签里面有unionfind, 所以借助于unionfind
  */
-public class Solution_200 {
+public class NumberOfIsLands{
 
     public int numIslands(char[][] grid) {
 

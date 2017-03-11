@@ -3,9 +3,6 @@ package main.java.bupt.wxy.stack;
 /**
  * Created by xiyuanbupt on 1/15/17.
  388. Longest Absolute File Path
- Total Accepted: 19265
- Total Submissions: 55412
- Difficulty: Medium
  Contributors: Admin
  Suppose we abstract our file system by a string in the following manner:
 

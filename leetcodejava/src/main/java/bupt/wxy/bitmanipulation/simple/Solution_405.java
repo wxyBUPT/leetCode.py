@@ -54,7 +54,6 @@ public class Solution_405 {
     }
 
     public static void main(String[] args){
-
     }
 
 }

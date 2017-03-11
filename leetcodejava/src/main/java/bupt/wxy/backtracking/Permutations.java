@@ -7,11 +7,7 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 2/28/17.
  46. Permutations Add to List
- Description  Submission  Solutions
- Total Accepted: 148112
- Total Submissions: 359270
  Difficulty: Medium
- Contributors: Admin
  Given a collection of distinct numbers, return all possible permutations.
 
  For example,

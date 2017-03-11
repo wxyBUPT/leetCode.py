@@ -3,10 +3,8 @@ package main.java.bupt.wxy.stack;
 /**
  * Created by xiyuanbupt on 1/9/17.
  402. Remove K Digits
- Total Accepted: 11699
- Total Submissions: 44781
  Difficulty: Medium
- Contributors: Admin
+
  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
 
  Note:
@@ -32,7 +30,7 @@ package main.java.bupt.wxy.stack;
 /**
  * 本题目使用普通的方法也能解决, 但是明显使用stack更加节省时间
  */
-public class Solution_402 {
+public class RemoveKDigits {
 
     public String removeKdigits(String num, int k) {
         int digits=num.length()-k;

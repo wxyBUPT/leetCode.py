@@ -6,11 +6,7 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 2/28/17.
  78. Subsets Add to List
- Description  Submission  Solutions
- Total Accepted: 144581
- Total Submissions: 383867
  Difficulty: Medium
- Contributors: Admin
  Given a set of distinct integers, nums, return all possible subsets.
 
  Note: The solution set must not contain duplicate subsets.

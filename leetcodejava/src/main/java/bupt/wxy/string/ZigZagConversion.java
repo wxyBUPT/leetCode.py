@@ -3,10 +3,7 @@ package main.java.bupt.wxy.string;
 /**
  * Created by xiyuanbupt on 1/15/17.
  6. ZigZag Conversion   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 130963
- Total Submissions: 505086
  Difficulty: Easy
- Contributors: Admin
  The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
  P   A   H   N

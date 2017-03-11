@@ -2,11 +2,8 @@ package main.java.bupt.wxy.queue;
 
 /**
  * Created by xiyuanbupt on 2/1/17.
- 17. Letter Combinations of a Phone Number   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 124523
- Total Submissions: 381450
+ 17. Letter Combinations of a Phone Number
  Difficulty: Medium
- Contributors: Admin
  Given a digit string, return all possible letter combinations that the number could represent.
 
  A mapping of digit to letters (just like on the telephone buttons) is given below.

@@ -5,10 +5,7 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 12/31/16.
  451. Sort Characters By Frequency
- Total Accepted: 11191
- Total Submissions: 22049
  Difficulty: Medium
- Contributors: stickypens
  Given a string, sort it in decreasing order based on the frequency of characters.
 
  Example 1:

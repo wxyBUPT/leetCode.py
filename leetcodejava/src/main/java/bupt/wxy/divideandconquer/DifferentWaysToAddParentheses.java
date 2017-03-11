@@ -6,12 +6,8 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 3/2/17.
- 241. Different Ways to Add Parentheses Add to List
- Description  Submission  Solutions
- Total Accepted: 38922
- Total Submissions: 92868
+ 241. Different Ways to Add Parentheses
  Difficulty: Medium
- Contributors: Admin
  Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are +, - and *.
 
 

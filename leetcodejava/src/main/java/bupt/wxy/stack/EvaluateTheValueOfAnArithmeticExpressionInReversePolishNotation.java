@@ -16,7 +16,7 @@ import java.util.*;
 /**
  * 计算逆波兰表达式的值
  */
-public class Solution_150 {
+public class EvaluateTheValueOfAnArithmeticExpressionInReversePolishNotation {
 
     static Set<String> operators=new HashSet<>();
     static {

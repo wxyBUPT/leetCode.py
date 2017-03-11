@@ -6,12 +6,9 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 2/28/17.
- 39. Combination Sum Add to List
- Description  Submission  Solutions
- Total Accepted: 141281
- Total Submissions: 387256
+ 39. Combination Sum
  Difficulty: Medium
- Contributors: Admin
+
  Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
 
  The same repeated number may be chosen from C unlimited number of times.

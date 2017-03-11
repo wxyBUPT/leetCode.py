@@ -4,11 +4,8 @@ import java.util.Stack;
 
 /**
  * Created by xiyuanbupt on 1/15/17.
- 99. Recover Binary Search Tree   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 65796
- Total Submissions: 229091
+ 99. Recover Binary Search Tree
  Difficulty: Hard
- Contributors: Admin
  Two elements of a binary search tree (BST) are swapped by mistake.
 
  Recover the tree without changing its structure.
@@ -49,10 +46,9 @@ public class RecoverBinarySearchTree {
             int tmp=first.val;
             first.val=second.val;
             second.val=tmp;
-            System.out.println(first.val);
-            System.out.println(second.val);
         }
     }
+
 
     /**
     // 二叉树的非递归中序比那里

@@ -7,11 +7,7 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 3/1/17.
  199. Binary Tree Right Side View Add to List
- Description  Submission  Solutions
- Total Accepted: 70743
- Total Submissions: 180024
  Difficulty: Medium
- Contributors: Admin
  Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
 
  For example:
