@@ -3,10 +3,7 @@ package main.java.bupt.wxy.linkedlist;
 /**
  * Created by xiyuanbupt on 1/13/17.
  234. Palindrome Linked List
- Total Accepted: 82478
- Total Submissions: 260823
  Difficulty: Easy
- Contributors: Admin
  Given a singly linked list, determine if it is a palindrome.
  */
 public class PalindromeLinkedList {

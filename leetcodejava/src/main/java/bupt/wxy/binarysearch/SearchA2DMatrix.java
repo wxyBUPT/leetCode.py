@@ -2,12 +2,8 @@ package main.java.bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 74. Search a 2D Matrix Add to List
- Description  Submission  Solutions
- Total Accepted: 112244
- Total Submissions: 317081
+ 74. Search a 2D Matrix
  Difficulty: Medium
- Contributors: Admin
  Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
  Integers in each row are sorted from left to right.

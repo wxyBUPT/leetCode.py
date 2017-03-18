@@ -2,7 +2,7 @@ package main.java.bupt.wxy.dp;
 
 /**
  * Created by xiyuanbupt on 3/10/17.
- 122. Best Time to Buy and Sell Stock II Add to List
+ 122. Best Time to Buy and Sell Stock II
  Difficulty: Easy
  Say you have an array for which the ith element is the price of a given stock on day i.
 

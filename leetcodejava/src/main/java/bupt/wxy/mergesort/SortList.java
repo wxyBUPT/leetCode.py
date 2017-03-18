@@ -4,10 +4,7 @@ package main.java.bupt.wxy.mergesort;
 /**
  * Created by xiyuanbupt on 1/9/17.
  148. Sort List
- Total Accepted: 91401
- Total Submissions: 334775
  Difficulty: Medium
- Contributors: Admin
  Sort a linked list in O(n log n) time using constant space complexity.
  */
 public class SortList {

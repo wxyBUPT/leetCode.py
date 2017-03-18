@@ -2,11 +2,8 @@ package main.java.bupt.wxy.math;
 
 /**
  * Created by xiyuanbupt on 1/13/17.
- 172. Factorial Trailing Zeroes   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 80921
- Total Submissions: 232100
+ 172. Factorial Trailing Zeroes
  Difficulty: Easy
- Contributors: Admin
  Given an integer n, return the number of trailing zeroes in n!.
 
  Note: Your solution should be in logarithmic time complexity.

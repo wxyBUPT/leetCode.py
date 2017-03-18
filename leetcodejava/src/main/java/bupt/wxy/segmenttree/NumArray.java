@@ -2,11 +2,8 @@ package main.java.bupt.wxy.segmenttree;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
- 307. Range Sum Query - Mutable   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 25917
- Total Submissions: 140588
+ 307. Range Sum Query - Mutable
  Difficulty: Medium
- Contributors: Admin
  Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
 
  The update(i, val) function modifies nums by updating the element at index i to val.

@@ -29,7 +29,6 @@ public class PalindromePartitioning {
     // 95.88%
     public List<List<String>> partition(String s) {
         res=new ArrayList<>();
-
         curr=new ArrayList<>();
         backTrack(s,0);
         return res;

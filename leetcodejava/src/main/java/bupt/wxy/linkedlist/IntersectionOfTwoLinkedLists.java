@@ -3,10 +3,7 @@ package main.java.bupt.wxy.linkedlist;
 /**
  * Created by xiyuanbupt on 1/13/17.
  160. Intersection of Two Linked Lists
- Total Accepted: 107658
- Total Submissions: 358424
  Difficulty: Easy
- Contributors: Admin
  Write a program to find the node at which the intersection of two singly linked lists begins.
 
 

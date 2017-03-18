@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Created by xiyuanbupt on 2/2/17.
- 56. Merge Intervals   Add to List QuestionEditorial Solution  My Submissions
+ 56. Merge Intervals
  Difficulty: Medium
 
  Given a collection of intervals, merge all overlapping intervals.

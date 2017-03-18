@@ -2,11 +2,8 @@ package main.java.bupt.wxy.linkedlist;
 
 /**
  * Created by xiyuanbupt on 1/9/17.
- 82. Remove Duplicates from Sorted List II   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 94575
- Total Submissions: 330272
+ 82. Remove Duplicates from Sorted List II
  Difficulty: Medium
- Contributors: Admin
  Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
 
  For example,

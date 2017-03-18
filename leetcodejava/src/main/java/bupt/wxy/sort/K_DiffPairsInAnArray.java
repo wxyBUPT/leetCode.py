@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Created by xiyuanbupt on 3/5/17.
- 532. K-diff Pairs in an Array My SubmissionsBack To Contest
+ 532. K-diff Pairs in an Array
  Difficulty: Easy
 
  Example 1:

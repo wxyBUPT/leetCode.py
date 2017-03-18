@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Created by xiyuanbupt on 2/2/17.
- 93. Restore IP Addresses   Add to List QuestionEditorial Solution  My Submissions
+ 93. Restore IP Addresses
  Difficulty: Medium
 
  Given a string containing only digits, restore it by returning all possible valid IP address combinations.

@@ -4,10 +4,7 @@ package main.java.bupt.wxy.twopoint;
  * Created by xiyuanbupt on 1/16/17.
  76. Minimum Window Substring
 
- Total Accepted: 86145
- Total Submissions: 361236
  Difficulty: Hard
- Contributors: Admin
  Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
 
  For example,

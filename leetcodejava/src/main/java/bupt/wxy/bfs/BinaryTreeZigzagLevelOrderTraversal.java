@@ -26,17 +26,17 @@ import java.util.*;
 public class BinaryTreeZigzagLevelOrderTraversal {
 
     // 本题目其实有很多种方法
-    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    public List<List<Integer>> zigzagLevelOrder(main.java.bupt.wxy.bfs.TreeNode root) {
         List<List<Integer>> res=new LinkedList<>();
         if(root==null)return res;
-        Queue<TreeNode> queue=new LinkedList<>();
+        Queue<main.java.bupt.wxy.bfs.TreeNode> queue=new LinkedList<>();
         queue.offer(root);
         int levelSize=0;
         boolean inc=true;
         while (!queue.isEmpty()){
             levelSize=queue.size();
             List<Integer> levelVals=new LinkedList<>();
-            TreeNode tmp;
+            main.java.bupt.wxy.bfs.TreeNode tmp;
             inc=!inc;
             for(int i=0;i<levelSize;i++){
                 tmp=queue.poll();

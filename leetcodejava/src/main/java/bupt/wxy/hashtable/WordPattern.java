@@ -5,10 +5,7 @@ import java.util.*;
 /**
  * Created by xiyuanbupt on 1/13/17.
  290. Word Pattern
- Total Accepted: 63451
- Total Submissions: 197923
  Difficulty: Easy
- Contributors: Admin
  Given a pattern and a string str, find if str follows the same pattern.
 
  Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.

@@ -6,10 +6,7 @@ import java.util.Arrays;
 /**
  * Created by xiyuanbupt on 1/3/17.
  274. H-Index
- Total Accepted: 59258
- Total Submissions: 185323
  Difficulty: Medium
- Contributors: Admin
  Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.
 
  According to the definition of h-index on Wikipedia: "A scientist has index h if h of his/her N papers have at least h citations each, and the other N − h papers have no more than h citations each."

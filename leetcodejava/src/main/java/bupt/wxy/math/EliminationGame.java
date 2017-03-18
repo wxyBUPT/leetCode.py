@@ -2,7 +2,7 @@ package main.java.bupt.wxy.math;
 
 /**
  * Created by xiyuanbupt on 3/2/17.
- 390. Elimination Game Add to List
+ 390. Elimination Game
  There is a list of sorted integers from 1 to n. Starting from left to right, remove the first number and every other number afterward until you reach the end of the list.
 
  Repeat the previous step again, but this time from right to left, remove the right most number and every other number from the remaining numbers.
@@ -30,7 +30,6 @@ public class EliminationGame {
         boolean left=true;
         int step=1;
         int head=1;
-
         while (remain!=1){
             if(left||remain%2==1){
                 head=head+step;
@@ -40,6 +39,5 @@ public class EliminationGame {
             left=!left;
         }
         return head;
-
     }
 }

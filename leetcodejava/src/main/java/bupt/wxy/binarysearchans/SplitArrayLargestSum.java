@@ -1,11 +1,19 @@
 package main.java.bupt.wxy.binarysearchans;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * Created by xiyuanbupt on 3/9/17.
- 410. Split Array Largest Sum Add to List
+ 410. Split Array Largest Sum
  Difficulty: Hard
 
- Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these m subarrays.
+ Given an array which consists of non-negative integers and an integer m,
+ you can split the array into m non-empty continuous subarrays.
+ Write an algorithm to minimize the largest sum among these m subarrays.
 
  Note:
  If n is the length of array, assume the following constraints are satisfied:

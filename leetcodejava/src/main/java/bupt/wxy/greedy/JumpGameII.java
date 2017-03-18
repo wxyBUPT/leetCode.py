@@ -2,9 +2,8 @@ package main.java.bupt.wxy.greedy;
 
 /**
  * Created by xiyuanbupt on 2/2/17.
- 45. Jump Game II   Add to List QuestionEditorial Solution  My Submissions
+ 45. Jump Game II
  Difficulty: Hard
- Contributors: Admin
  Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
  Each element in the array represents your maximum jump length at that position.

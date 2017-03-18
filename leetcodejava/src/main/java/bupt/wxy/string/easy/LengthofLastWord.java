@@ -3,10 +3,7 @@ package main.java.bupt.wxy.string.easy;
 /**
  * Created by xiyuanbupt on 1/13/17.
  58. Length of Last Word
- Total Accepted: 125518
- Total Submissions: 403623
  Difficulty: Easy
- Contributors: Admin
  Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
 
  If the last word does not exist, return 0.

@@ -2,12 +2,8 @@ package main.java.bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 162. Find Peak Element Add to List
- Description  Submission  Solutions
- Total Accepted: 101479
- Total Submissions: 279841
+ 162. Find Peak Element
  Difficulty: Medium
- Contributors: Admin
  A peak element is an element that is greater than its neighbors.
 
  Given an input array where num[i] ≠ num[i+1], find a peak element and return its index.

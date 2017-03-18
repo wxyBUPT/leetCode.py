@@ -2,11 +2,8 @@ package main.java.bupt.wxy.linkedlist;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
- 2. Add Two Numbers   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 230135
- Total Submissions: 876263
+ 2. Add Two Numbers
  Difficulty: Medium
- Contributors: Admin
  You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
  You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -32,7 +29,6 @@ public class AddTwoNumbers {
         }
         if(l2!=null)l1=l2;
         while (l1!=null){
-
             ListNode curr=new ListNode((l1.val+carry)%10);
             carry=(l1.val+carry)/10;
             pre.next=curr;

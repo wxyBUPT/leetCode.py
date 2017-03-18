@@ -2,12 +2,8 @@ package main.java.bupt.wxy.bitmanipulation.simple;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 136. Single Number Add to List
- Description  Submission  Solutions
- Total Accepted: 195970
- Total Submissions: 368143
+ 136. Single Number
  Difficulty: Easy
- Contributors: Admin
  Given an array of integers, every element appears twice except for one. Find that single one.
 
  Note:

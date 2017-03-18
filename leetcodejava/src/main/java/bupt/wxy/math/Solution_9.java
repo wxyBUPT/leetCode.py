@@ -3,10 +3,7 @@ package main.java.bupt.wxy.math;
 /**
  * Created by xiyuanbupt on 1/3/17.
  9. Palindrome Number   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 173248
- Total Submissions: 509079
  Difficulty: Easy
- Contributors: Admin
  Determine whether an integer is a palindrome. Do this without extra space.
  */
 public class Solution_9 {

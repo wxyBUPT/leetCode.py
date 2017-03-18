@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 2/28/17.
- 46. Permutations Add to List
+ 46. Permutations
  Difficulty: Medium
  Given a collection of distinct numbers, return all possible permutations.
 
@@ -37,7 +37,6 @@ public class Permutations {
             res.add(new ArrayList<>(curr));
             return;
         }
-
         for(int i=0;i<nums.length;i++){
             if(!visited[i]){
                 visited[i]=true;

@@ -1,5 +1,6 @@
 package main.java.bupt.wxy.hashtable;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -40,10 +41,29 @@ import java.util.List;
  */
 public class FindAllAnagramsInAString {
 
+    // 85.72%
+    public List<Integer> findAnagrams(String s, String p){
+        List<Integer> res = new LinkedList<>();
+        if(s==null || s.length()==0 || p==null || p.length()==0)return res;
+        int[] map = new int[256];
+        for(char c:p.toCharArray()){
+            map[c]++;
+        }
+        int left = 0, right = 0, count = p.length();
+        int s_len = s.length();
+        while (right < s_len){
+            if(map[s.charAt(right++)]-->=1)count--;
+            if(count==0)res.add(left);
+            if(right-left==p.length()&&map[s.charAt(left++)]++>=0)count++;
+        }
+        return res;
+    }
+
     // 51.26%
+    // 2017年3月6日更新, 一下程序比较麻烦, 该题目是一道滑动窗口问题
     // 后续想了想本算法不是最好的, 需要 26*n, 并且使用了两个map
     // 其实可以通过一个map 配合记录p的长度来让代码变得更加简单
-    public List<Integer> findAnagrams(String s, String p) {
+    public List<Integer> findAnagramsBad(String s, String p) {
         if(s.length()<p.length())return null;
         int[] s_map=new int[26];
         int[] p_map=new int[26];

@@ -19,6 +19,7 @@ import java.util.Stack;
  */
 public class RemoveDuplicateLetters {
 
+    // 下面算法是正常思维的算法
     // 90.78%
     public String removeDuplicateLettersUseStack(String s) {
         Stack<Character> st=new Stack<>();
@@ -41,7 +42,6 @@ public class RemoveDuplicateLetters {
         }
         return sb.reverse().toString();
     }
-
 
     // 29.07% 使用递归. 没有使用stack效果好
     public String removeDuplicateLetters(String s) {

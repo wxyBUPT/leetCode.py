@@ -2,7 +2,7 @@ package main.java.bupt.wxy.dp.simple;
 
 /**
  * Created by xiyuanbupt on 3/5/17.
- 64. Minimum Path Sum Add to List
+ 64. Minimum Path Sum
  Difficulty: Medium
  Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
 

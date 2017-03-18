@@ -2,11 +2,8 @@ package main.java.bupt.wxy.linkedlist;
 
 /**
  * Created by xiyuanbupt on 2/1/17.
- 25. Reverse Nodes in k-Group   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 81590
- Total Submissions: 273491
+ 25. Reverse Nodes in k-Group
  Difficulty: Hard
- Contributors: Admin
  Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
 
  k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.

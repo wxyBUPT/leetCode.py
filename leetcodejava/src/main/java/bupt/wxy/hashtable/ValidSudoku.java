@@ -3,10 +3,7 @@ package main.java.bupt.wxy.hashtable;
 /**
  * Created by xiyuanbupt on 1/13/17.
  36. Valid Sudoku
- Total Accepted: 104399
- Total Submissions: 307887
  Difficulty: Easy
- Contributors: Admin
  Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
 
  The Sudoku board could be partially filled, where empty cells are filled with the character '.'.

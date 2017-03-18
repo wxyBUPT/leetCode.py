@@ -25,7 +25,6 @@ package main.java.bupt.wxy.twopoint;
  */
 public class ContinuousSubarraySum {
 
-
     public boolean checkSubarraySum(int[] nums, int k) {
 
         k=Math.abs(k);

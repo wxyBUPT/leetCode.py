@@ -6,13 +6,8 @@ import java.util.List;
 /**
  * Created by xiyuanbupt on 1/15/17.
  14. Longest Common Prefix
- Total Accepted: 144384
- Total Submissions: 472211
  Difficulty: Easy
- Contributors: Admin
  Write a function to find the longest common prefix string amongst an array of strings.
-
- Subscribe to see which companies asked this question
 
  Hide Tags
  */

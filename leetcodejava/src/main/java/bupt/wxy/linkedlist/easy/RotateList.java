@@ -3,10 +3,7 @@ package main.java.bupt.wxy.linkedlist;
 /**
  * Created by xiyuanbupt on 1/10/17.
  61. Rotate List
- Total Accepted: 92739
- Total Submissions: 385843
  Difficulty: Medium
- Contributors: Admin
  Given a list, rotate the list to the right by k places, where k is non-negative.
 
  For example:

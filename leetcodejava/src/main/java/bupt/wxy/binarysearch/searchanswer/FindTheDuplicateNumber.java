@@ -2,7 +2,7 @@ package main.java.bupt.wxy.binarysearch.searchanswer;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
- 287. Find the Duplicate Number   Add to List QuestionEditorial Solution  My Submissions
+ 287. Find the Duplicate Number
  Difficulty: Hard
 
  Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive),

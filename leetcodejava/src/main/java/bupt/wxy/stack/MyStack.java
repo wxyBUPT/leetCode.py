@@ -7,11 +7,8 @@ import java.util.Stack;
 /**
  * Created by xiyuanbupt on 2/14/17.
  225. Implement Stack using Queues
- Description  Submission  Solutions  Add to List
- Total Accepted: 63955
- Total Submissions: 204023
+ Description  Submission  Solutions
  Difficulty: Easy
- Contributors: Admin
  Implement the following operations of a stack using queues.
 
  push(x) -- Push element x onto stack.

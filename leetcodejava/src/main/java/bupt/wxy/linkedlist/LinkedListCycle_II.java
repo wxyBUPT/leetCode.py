@@ -3,10 +3,7 @@ package main.java.bupt.wxy.linkedlist;
 /**
  * Created by xiyuanbupt on 1/8/17.
  142. Linked List Cycle II
- Total Accepted: 98986
- Total Submissions: 317496
  Difficulty: Medium
- Contributors: Admin
  Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
 
  Note: Do not modify the linked list.

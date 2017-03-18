@@ -35,7 +35,6 @@ import java.util.Comparator;
 
  Show Tags
  Show Similar Problems
-
  */
 public class NonOverlappingIntervals {
     class Interval{

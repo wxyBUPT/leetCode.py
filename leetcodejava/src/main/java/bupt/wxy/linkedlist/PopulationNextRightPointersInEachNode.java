@@ -2,12 +2,9 @@ package main.java.bupt.wxy.linkedlist;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 116. Populating Next Right Pointers in Each Node Add to List
- Description  Submission  Solutions
- Total Accepted: 120904
+ 116. Populating Next Right Pointers in Each Node
  Total Submissions: 327639
  Difficulty: Medium
- Contributors: Admin
  Given a binary tree
 
  struct TreeLinkNode {

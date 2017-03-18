@@ -24,6 +24,7 @@ import java.util.List;
  */
 public class QueueReconstructionByHeight {
 
+    // 先把个子高的人排好, 个子矮的按照前面有多少比自己高的人插入
     public int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, new Comparator<int[]>() {
             @Override

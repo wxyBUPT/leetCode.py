@@ -14,7 +14,8 @@ package main.java.bupt.wxy.array;
  */
 public class RotateImage {
 
-    public void rotate(int[][] matrix) {
+    // 下面的算法申请了额外的空间,
+    public void rotateUseSpace(int[][] matrix) {
         int n=matrix.length;
         if(n==0)return;
         int[][] tmp=new int[n][n];

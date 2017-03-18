@@ -2,12 +2,8 @@ package main.java.bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 35. Search Insert Position Add to List
- Description  Submission  Solutions
- Total Accepted: 150568
- Total Submissions: 384604
+ 35. Search Insert Position
  Difficulty: Easy
- Contributors: Admin
  Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
  You may assume no duplicates in the array.

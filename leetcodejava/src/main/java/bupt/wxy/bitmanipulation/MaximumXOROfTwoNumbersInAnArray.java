@@ -5,13 +5,9 @@ import java.util.Set;
 
 /**
  * Created by xiyuanbupt on 3/10/17.
- 421. Maximum XOR of Two Numbers in an Array Add to List
- Description  Submission  Solutions
- Total Accepted: 9464
- Total Submissions: 21479
+ 421. Maximum XOR of Two Numbers in an Array
  Difficulty: Medium
- Contributors: shen5630
- Given a non-empty array of numbers, a0, a1, a2, … , an-1, where 0 ≤ ai < 231.
+ Given a non-empty array of numbers, a0, a1, a2, … , an-1, where 0 ≤ ai < 231(注:二的三十一次幂).
 
  Find the maximum result of ai XOR aj, where 0 ≤ i, j < n.
 

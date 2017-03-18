@@ -6,11 +6,8 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
- 60. Permutation Sequence   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 72511
- Total Submissions: 267588
+ 60. Permutation Sequence
  Difficulty: Medium
- Contributors: Admin
  The set [1,2,3,…,n] contains a total of n! unique permutations.
 
  By listing and labeling all of the permutations in order,

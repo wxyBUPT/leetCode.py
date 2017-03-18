@@ -63,7 +63,6 @@ public class FrogJump {
                     set.add(step+1);
                     if(step-1>0)set.add(step-1);
                 }
-
             }
         }
         return false;

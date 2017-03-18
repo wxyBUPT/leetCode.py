@@ -3,10 +3,7 @@ package main.java.bupt.wxy.stack;
 /**
  * Created by xiyuanbupt on 1/16/17.
  84. Largest Rectangle in Histogram
- Total Accepted: 79465
- Total Submissions: 309582
  Difficulty: Hard
- Contributors: Admin
  Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
 
 

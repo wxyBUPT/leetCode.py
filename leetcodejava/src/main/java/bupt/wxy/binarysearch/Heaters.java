@@ -6,10 +6,7 @@ import java.util.Arrays;
  * Created by xiyuanbupt on 3/1/17.
  475. Heaters Add to List
  Description  Submission  Solutions
- Total Accepted: 9819
- Total Submissions: 32980
  Difficulty: Easy
- Contributors: neelamgehlot
  Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.
 
  Now, you are given positions of houses and heaters on a horizontal line, find out minimum radius of heaters so that all houses could be covered by those heaters.

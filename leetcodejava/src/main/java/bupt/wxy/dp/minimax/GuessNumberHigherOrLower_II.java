@@ -73,6 +73,5 @@ class Solution{
                 dp[i][j]=i+1==j?i:globalMin;
             }
         return dp[1][n];
-
     }
 }
