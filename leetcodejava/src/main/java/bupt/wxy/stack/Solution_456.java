@@ -63,4 +63,3 @@ class Pair{
         this.max = max;
     }
 }
-

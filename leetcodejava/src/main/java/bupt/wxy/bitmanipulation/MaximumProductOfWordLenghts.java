@@ -1,6 +1,8 @@
 package main.java.bupt.wxy.bitmanipulation;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by xiyuanbupt on 3/2/17.
@@ -30,7 +32,6 @@ public class MaximumProductOfWordLenghts {
     // 每个string 可以hash成一个int, 每两个int之间做位与操作等于零既满足条件
     // 67.96%
     public int maxProduct(String[] words) {
-
         int[] hash_map=new int[words.length];
         int[] len_map=new int[words.length];
         for(int i=0,len=words.length;i<len;i++){
@@ -51,6 +52,5 @@ public class MaximumProductOfWordLenghts {
             }
         }
         return res;
-
     }
 }

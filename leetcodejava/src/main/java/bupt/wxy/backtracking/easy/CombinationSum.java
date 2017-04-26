@@ -64,4 +64,15 @@ public class CombinationSum {
             curr.remove(size);
         }
     }
+
+    public static void main(String[] args){
+        CombinationSum co = new CombinationSum();
+        int[] nums = {43, 234, 313};
+        int[] candi = {6, 9, 20};
+        for(int num:nums){
+            if(co.combinationSum(candi, num).size()==0){
+                System.out.println(num);
+            }
+        }
+    }
 }

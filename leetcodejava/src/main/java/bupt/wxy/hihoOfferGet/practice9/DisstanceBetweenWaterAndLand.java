@@ -2,6 +2,7 @@ package main.java.bupt.wxy.hihoOfferGet.practice9;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -54,6 +55,7 @@ public class DisstanceBetweenWaterAndLand {
                 if(map[i][j]==0)dfsVisit(map, res, i, j, -1);
             }
         }
+        String line = "";
         /**
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
@@ -72,8 +74,6 @@ public class DisstanceBetweenWaterAndLand {
         dfsVisit(map, res, i, j-1, pre+1);
         dfsVisit(map, res, i, j+1, pre+1);
     }
-
-
 
     public static void main(String[] args){
 

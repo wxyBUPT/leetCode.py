@@ -1,6 +1,8 @@
 package main.java.bupt.wxy.dp;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by xiyuanbupt on 1/17/17.

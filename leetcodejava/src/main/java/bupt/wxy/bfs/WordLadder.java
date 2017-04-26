@@ -1,9 +1,7 @@
 package main.java.bupt.wxy.bfs;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by xiyuanbupt on 1/17/17.
@@ -36,7 +34,8 @@ import java.util.Set;
  */
 public class WordLadder {
 
-    public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
+
+    public int ladderLengthBFS(String beginWord, String endWord, Set<String> wordList) {
         Queue<String> queue=new LinkedList<>();
         queue.add(beginWord);
         // 使用null来标记这一层的结束

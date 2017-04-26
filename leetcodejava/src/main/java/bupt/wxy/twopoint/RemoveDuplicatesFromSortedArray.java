@@ -2,7 +2,7 @@ package main.java.bupt.wxy.twopoint;
 
 /**
  * Created by xiyuanbupt on 1/3/17.
- 26. Remove Duplicates from Sorted Array   Add to List QuestionEditorial Solution  My Submissions
+ 26. Remove Duplicates from Sorted Array
  Difficulty: Easy
  Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
 

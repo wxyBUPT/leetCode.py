@@ -4,7 +4,8 @@ package main.java.bupt.wxy.dp;
  * Created by xiyuanbupt on 3/9/17.
  376. Wiggle Subsequence
  Difficulty: Medium
- A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative.
+ A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative.
+ The first difference (if one exists) may be either positive or negative.
  A sequence with fewer than two elements is trivially a wiggle sequence.
 
  For example, [1,7,4,9,2,5] is a wiggle sequence because the differences (6,-3,5,-7,3) are alternately positive and negative.

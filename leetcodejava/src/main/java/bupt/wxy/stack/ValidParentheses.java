@@ -4,11 +4,8 @@ import java.util.Stack;
 
 /**
  * Created by xiyuanbupt on 2/2/17.
- 20. Valid Parentheses   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 167275
- Total Submissions: 517399
+ 20. Valid Parentheses
  Difficulty: Easy
- Contributors: Admin
  Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
  The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.

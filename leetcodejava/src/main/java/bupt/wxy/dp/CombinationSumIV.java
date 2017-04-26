@@ -26,7 +26,6 @@ package main.java.bupt.wxy.dp;
  */
 public class CombinationSumIV {
     public int combinationSum4(int[] nums, int target) {
-
         int[] dp=new int[target+1];
         dp[0]=1;
         for(int i=1,len=dp.length;i<len;i++){

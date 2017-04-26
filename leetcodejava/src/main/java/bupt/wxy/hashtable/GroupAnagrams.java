@@ -1,7 +1,5 @@
 package main.java.bupt.wxy.hashtable;
 
-import com.sun.deploy.config.MacOSXPlatform;
-import com.sun.org.apache.xml.internal.serialize.LineSeparator;
 
 import java.util.*;
 

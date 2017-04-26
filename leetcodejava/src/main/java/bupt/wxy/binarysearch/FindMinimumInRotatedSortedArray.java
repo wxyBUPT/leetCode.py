@@ -17,7 +17,6 @@ package main.java.bupt.wxy.binarysearch;
 public class FindMinimumInRotatedSortedArray {
 
     public int findMin(int[] nums) {
-
         int lo=0,hi=nums.length-1;
         while (lo<hi){
             if(nums[lo]<nums[hi])return nums[lo];
@@ -25,7 +24,6 @@ public class FindMinimumInRotatedSortedArray {
             if(nums[mid]>=nums[lo])lo=mid+1;
             else hi=mid;
         }
-
         return nums[lo];
     }
 }

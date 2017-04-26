@@ -2,7 +2,7 @@ package main.java.bupt.wxy.twopoint;
 
 /**
  * Created by xiyuanbupt on 1/4/17.
- 80. Remove Duplicates from Sorted Array II   Add to List QuestionEditorial Solution  My Submissions
+ 80. Remove Duplicates from Sorted Array II
  Difficulty: Medium
  Follow up for "Remove Duplicates":
  What if duplicates are allowed at most twice?

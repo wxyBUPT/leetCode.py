@@ -28,4 +28,9 @@ public class UniquePaths {
             }
         return dp[m-1][n-1];
     }
+
+    public static void main(String[] args){
+        UniquePaths uniquePaths = new UniquePaths();
+        System.out.println(uniquePaths.uniquePaths(9, 9));
+    }
 }

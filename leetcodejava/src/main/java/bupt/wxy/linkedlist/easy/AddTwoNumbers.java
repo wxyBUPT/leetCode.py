@@ -1,10 +1,11 @@
-package main.java.bupt.wxy.linkedlist;
+package main.java.bupt.wxy.linkedlist.easy;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
  2. Add Two Numbers
  Difficulty: Medium
- You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+ You are given two non-empty linked lists representing two non-negative integers.
+ The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
  You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -19,7 +20,6 @@ public class AddTwoNumbers {
         ListNode head_pre=new ListNode(0);
         ListNode pre=head_pre;
         while (l1!=null&&l2!=null){
-
             ListNode curr=new ListNode((l1.val+l2.val+carry)%10);
             carry=(l1.val+l2.val+carry)/10;
             pre.next=curr;
@@ -39,6 +39,5 @@ public class AddTwoNumbers {
             pre.next=new ListNode(carry);
         }
         return head_pre.next;
-
     }
 }

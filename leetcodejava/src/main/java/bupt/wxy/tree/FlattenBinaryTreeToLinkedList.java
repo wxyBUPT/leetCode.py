@@ -42,5 +42,4 @@ public class FlattenBinaryTreeToLinkedList {
         root.left=null;
         next=root;
     }
-
 }

@@ -3,7 +3,6 @@ package main.java.bupt.wxy.twopoint;
 /**
  * Created by xiyuanbupt on 1/9/17.
  209. Minimum Size Subarray Sum
- Contributors: Admin
  Given an array of n positive integers and a positive integer s,
  find the minimal length of a contiguous subarray of which the sum ≥ s. If there isn't one, return 0 instead.
 
@@ -35,28 +34,5 @@ public class MinimumSizeSubarraySum {
             }
         }
         return res==Integer.MAX_VALUE?0:res;
-    }
-
-    // 下面算法是自己想出来的但是有点麻烦
-    public int minSubArrayLenMore(int s, int[] nums) {
-        if(nums.length==0)return 0;
-        int i=0,j=1;
-        int res=Integer.MAX_VALUE;
-        long sum=nums[0];
-        while (j<nums.length){
-            if(sum>=s){
-                res=Math.min(res,j-i);
-                sum-=nums[i++];
-            }
-            else {
-                sum+=nums[j++];
-            }
-        }
-        // 如果后面的那个数非常大
-        while (sum>=s){
-            res=Math.min(res,j-i);
-            sum-=nums[i++];
-        }
-        return res<Integer.MAX_VALUE?res:0;
     }
 }
