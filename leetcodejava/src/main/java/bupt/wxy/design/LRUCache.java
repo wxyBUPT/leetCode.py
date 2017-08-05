@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.design;
+package bupt.wxy.design;
 
 /**
  * Created by xiyuanbupt on 1/12/17.

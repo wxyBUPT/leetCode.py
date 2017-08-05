@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dfs;
+package bupt.wxy.dfs;
 
 import java.util.*;
 

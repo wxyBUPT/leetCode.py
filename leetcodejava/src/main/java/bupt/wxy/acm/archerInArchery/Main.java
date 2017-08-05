@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.acm.archerInArchery;
+package bupt.wxy.acm.archerInArchery;
 
 import java.util.Scanner;
 

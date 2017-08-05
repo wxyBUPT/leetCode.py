@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.twopoint;
+package bupt.wxy.twopoint;
 
 /**
  * Created by533. Lonely Pixel II My SubmissionsBack To Contest

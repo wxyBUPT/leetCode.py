@@ -4,10 +4,8 @@ __author__ = 'xiyuanbupt'
 
 '''
 169. Majority Element   Add to List QuestionEditorial Solution  My Submissions
-Total Accepted: 160314
-Total Submissions: 360337
 Difficulty: Easy
-Contributors: Admin
+
 Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
 
 You may assume that the array is non-empty and the majority element always exist in the array.

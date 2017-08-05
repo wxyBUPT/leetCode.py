@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearch;
+package bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 1/12/17.

@@ -1,8 +1,6 @@
-package main.java.bupt.wxy.binarysearchtree;
+package bupt.wxy.binarysearchtree;
 
 import java.util.Map;
-import java.util.NavigableMap;
-import java.util.SortedMap;
 import java.util.TreeMap;
 
 /**

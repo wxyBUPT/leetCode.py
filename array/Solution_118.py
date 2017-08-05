@@ -46,7 +46,6 @@ class Solution(object):
 
     # 很显然上述算法不能体现python语言的特性
     # 下面算法只要简单的几行
-
     # 77.84%
     def totolipton(self, numRows):
         res = [[1]]

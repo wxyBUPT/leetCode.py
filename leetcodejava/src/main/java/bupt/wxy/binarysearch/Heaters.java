@@ -1,11 +1,10 @@
-package main.java.bupt.wxy.binarysearch;
+package bupt.wxy.binarysearch;
 
 import java.util.Arrays;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
  475. Heaters Add to List
- Description  Submission  Solutions
  Difficulty: Easy
  Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.
 

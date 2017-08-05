@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearchtree;
+package bupt.wxy.binarysearchtree;
 
 import java.util.HashMap;
 import java.util.Map;

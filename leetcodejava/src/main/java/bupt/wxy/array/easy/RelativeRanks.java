@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.array.easy;
+package bupt.wxy.array.easy;
 
 import java.util.*;
 
@@ -49,7 +49,6 @@ public class RelativeRanks {
 
     // 使用treemap比较容易想到, 直接利用红黑树排序
     public String[] findRelativeRanksTreeMap(int[] nums) {
-
         // 45.48%
         NavigableMap<Integer,Integer> treeMap=new TreeMap<>(Collections.reverseOrder());
         for(int i=0;i<nums.length;i++){

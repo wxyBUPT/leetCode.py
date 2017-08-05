@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.backtracking;
+package bupt.wxy.backtracking;
 
 /**
  * Created by xiyuanbupt on 1/10/17.

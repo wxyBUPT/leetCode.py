@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.twopoint;
+package bupt.wxy.twopoint;
 
 import java.util.ArrayList;
 import java.util.Arrays;

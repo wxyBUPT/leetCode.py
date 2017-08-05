@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.bitmanipulation.simple;
+package bupt.wxy.bitmanipulation.simple;
 
 /**
  * Created by xiyuanbupt on 3/1/17.

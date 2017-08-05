@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dfs;
+package bupt.wxy.dfs;
 
 /**
  * Created by xiyuanbupt on 1/6/17.

@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.twopoint;
+package bupt.wxy.twopoint;
 
 /**
  * Created by xiyuanbupt on 2/26/17.

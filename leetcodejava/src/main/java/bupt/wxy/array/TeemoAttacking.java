@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.array;
+package bupt.wxy.array;
 
 /**
  * Created by xiyuanbupt on 2/6/17.
@@ -47,25 +47,4 @@ public class TeemoAttacking {
         }
         return res;
     }
-
-    // 下面的函数本来打算使用二分查找来求解的
-    /**
-     * Binary search for the right insert index for target in arr.
-     * @param arr
-     * @param target
-     * @param lo
-     * @param hi
-     * @return
-     */
-    /**
-    static int bisect_right(int[] arr, int target, int lo, int hi){
-        int mid;
-        while (lo<hi){
-            mid=lo+(hi-lo)/2;
-            if(target>=arr[mid])lo=mid+1;
-            else hi=mid;
-        }
-        return lo;
-    }
-     **/
 }

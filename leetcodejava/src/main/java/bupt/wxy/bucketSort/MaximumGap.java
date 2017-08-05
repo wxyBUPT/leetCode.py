@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.bucketSort;
+package bupt.wxy.bucketSort;
 
 /**
  * Created by xiyuanbupt on 3/10/17.

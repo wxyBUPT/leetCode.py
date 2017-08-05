@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearch;
+package bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
@@ -9,10 +9,12 @@ package main.java.bupt.wxy.binarysearch;
  Given a complete binary tree, count the number of nodes.
 
  Definition of a complete binary tree from Wikipedia:
- In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
+ In a complete binary tree every level, except possibly the last,
+ is completely filled, and all nodes in the last level are as far left as possible.
+ It can have between 1 and 2h nodes inclusive at the last level h.
  */
-public class CountCompleteTreeNodes {
 
+public class CountCompleteTreeNodes {
     // 二分查找不一定是寻找中间的值
     public int countNodes(TreeNode root) {
         if(root==null)return 0;
@@ -21,7 +23,6 @@ public class CountCompleteTreeNodes {
         if(r_h==0){
             return 1+l_h+r_h;
         }
-
         if(l_h==r_h){
             return powFor2(l_h)+countNodes(root.right);
         }

@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearchans;
+package bupt.wxy.binarysearchans;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

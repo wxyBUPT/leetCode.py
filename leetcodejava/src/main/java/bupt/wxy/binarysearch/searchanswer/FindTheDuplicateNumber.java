@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearch.searchanswer;
+package bupt.wxy.binarysearch.searchanswer;
 
 /**
  * Created by xiyuanbupt on 1/12/17.
@@ -6,7 +6,8 @@ package main.java.bupt.wxy.binarysearch.searchanswer;
  Difficulty: Hard
 
  Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive),
- prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
+ prove that at least one duplicate number must exist.
+ Assume that there is only one duplicate number, find the duplicate one.
 
  Note:
  You must not modify the array (assume the array is read only).

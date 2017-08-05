@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.bitmanipulation.simple;
+package bupt.wxy.bitmanipulation.simple;
 
 import java.util.HashMap;
 import java.util.Map;

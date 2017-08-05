@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.array.bad;
+package bupt.wxy.array.bad;
 
 /**
  * Created by xiyuanbupt on 1/10/17.

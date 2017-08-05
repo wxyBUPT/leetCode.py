@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dfs.wonderful;
+package bupt.wxy.dfs.wonderful;
 
 /**
  * Created by xiyuanbupt on 1/17/17.

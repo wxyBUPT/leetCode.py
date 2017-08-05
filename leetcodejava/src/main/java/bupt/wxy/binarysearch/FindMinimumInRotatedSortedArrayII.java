@@ -1,8 +1,8 @@
-package main.java.bupt.wxy.binarysearch;
+package bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 1/15/17.
- 154. Find Minimum in Rotated Sorted Array II   Add to List QuestionEditorial Solution  My Submissions
+ 154. Find Minimum in Rotated Sorted Array II
  Difficulty: Hard
 
  Follow up for "Find Minimum in Rotated Sorted Array":

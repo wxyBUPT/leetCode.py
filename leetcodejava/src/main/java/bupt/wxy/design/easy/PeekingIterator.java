@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.design.easy;
+package bupt.wxy.design.easy;
 
 import java.util.Iterator;
 

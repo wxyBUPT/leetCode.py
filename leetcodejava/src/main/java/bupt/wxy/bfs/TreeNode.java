@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.bfs;
+package bupt.wxy.bfs;
 
 /**
  * Created by xiyuanbupt on 1/8/17.

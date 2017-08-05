@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearch;
+package bupt.wxy.binarysearch;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
@@ -11,8 +11,6 @@ package main.java.bupt.wxy.binarysearch;
  Find the minimum element.
 
  You may assume no duplicate exists in the array.
-
-
  */
 public class FindMinimumInRotatedSortedArray {
 

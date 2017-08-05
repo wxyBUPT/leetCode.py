@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.binarysearchtree;
+package bupt.wxy.binarysearchtree;
 
 /**
  * Created by xiyuanbupt on 1/12/17.

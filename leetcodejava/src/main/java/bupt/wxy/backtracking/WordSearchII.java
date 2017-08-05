@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.backtracking;
+package bupt.wxy.backtracking;
 
 import java.util.*;
 

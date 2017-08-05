@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.bitmanipulation;
+package bupt.wxy.bitmanipulation;
 
 import java.util.*;
 
