@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dp;
+package bupt.wxy.dp;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

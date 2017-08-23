@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.string;
+package bupt.wxy.string;
 
 /**
  * Created by xiyuanbupt on 2/26/17.

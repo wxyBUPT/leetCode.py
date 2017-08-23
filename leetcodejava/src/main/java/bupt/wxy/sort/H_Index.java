@@ -1,8 +1,6 @@
-package main.java.bupt.wxy.sort;
+package bupt.wxy.sort;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 /**
  * Created by xiyuanbupt on 1/3/17.

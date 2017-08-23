@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.dp;
+package bupt.wxy.dp;
 
 /**
  * Created by xiyuanbupt on 3/10/17.
@@ -18,7 +18,6 @@ package main.java.bupt.wxy.dp;
 public class UniqueBinarySearchTrees {
 
     public int numTrees(int n) {
-
         int[] dp=new int[n+1];
         dp[0]=1;
         for(int i=1;i<=n;i++){

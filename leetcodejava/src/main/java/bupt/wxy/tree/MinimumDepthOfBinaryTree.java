@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
@@ -6,11 +6,10 @@ package main.java.bupt.wxy.tree;
  Description  Submission  Solutions
  Difficulty: Easy
  Given a binary tree, find its minimum depth.
-
- The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+ The minimum depth is the number of nodes along the shortest
+ path from the root node down to the nearest leaf node.
  */
 public class MinimumDepthOfBinaryTree {
-
     // 使用层序遍历可以实现, 试试递归实现
     // 19.47%
     public int minDepth(TreeNode root) {
@@ -23,6 +22,5 @@ public class MinimumDepthOfBinaryTree {
         }else {
             return 1+minDepth(root.left);
         }
-
     }
 }

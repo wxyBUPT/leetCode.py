@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.stack;
+package bupt.wxy.stack;
 
 /**
  * Created by xiyuanbupt on 1/9/17.

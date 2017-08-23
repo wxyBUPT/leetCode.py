@@ -1,11 +1,10 @@
-package main.java.bupt.wxy.string;
+package bupt.wxy.string;
 
 /**
  * Created by xiyuanbupt on 4/16/17.
- 551. Student Attendance Record I My SubmissionsBack To Contest
+ 551. Student Attendance Record
  Difficulty: Easy
  You are given a string representing an attendance record for a student. The record only contains the following three characters:
-
  'A' : Absent.
  'L' : Late.
  'P' : Present.

@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 5/7/17.
@@ -21,6 +21,7 @@ package main.java.bupt.wxy.tree;
  Tilt of node 1 : |2-3| = 1
  Tilt of binary tree : 0 + 0 + 1 = 1
  */
+
 public class BinaryTreeTilt {
 
     int res = 0;

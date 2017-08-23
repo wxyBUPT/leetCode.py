@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.sort;
+package bupt.wxy.sort;
 
 import java.util.*;
 
@@ -26,7 +26,6 @@ public class MergeIntervals {
 
         int start=Integer.MIN_VALUE;
         int end=Integer.MIN_VALUE;
-
         for(Interval interval:intervals){
             if(interval.start>end){
                 res.add(new Interval(start,end));

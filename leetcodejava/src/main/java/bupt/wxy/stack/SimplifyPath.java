@@ -1,16 +1,13 @@
-package main.java.bupt.wxy.stack;
+package bupt.wxy.stack;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Stack;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
  71. Simplify Path
- Total Accepted: 72714
- Total Submissions: 302988
  Difficulty: Medium
- Contributors: Admin
+
  Given an absolute path for a file (Unix-style), simplify it.
 
  For example,

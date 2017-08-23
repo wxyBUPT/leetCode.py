@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.mc.test;
+package bupt.wxy.mc.test;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

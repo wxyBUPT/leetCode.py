@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 1/16/17.
@@ -7,7 +7,8 @@ package main.java.bupt.wxy.tree;
 
  Given a binary tree, find the maximum path sum.
 
- For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+ For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections.
+ The path must contain at least one node and does not need to go through the root.
 
  For example:
  Given the below binary tree,
@@ -16,8 +17,6 @@ package main.java.bupt.wxy.tree;
  / \
  2   3
  Return 6.
-
-
  */
 public class BinaryTreeMaximumPathSum {
 
@@ -36,5 +35,4 @@ public class BinaryTreeMaximumPathSum {
         maxValue=Math.max(maxValue,left+right+node.val);
         return Math.max(left,right)+node.val;
     }
-
 }

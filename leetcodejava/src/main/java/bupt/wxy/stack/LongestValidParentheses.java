@@ -1,14 +1,11 @@
-package main.java.bupt.wxy.stack;
+package bupt.wxy.stack;
 
 import java.util.Stack;
 
 /**
  * Created by xiyuanbupt on 1/15/17.
  32. Longest Valid Parentheses
- Total Accepted: 83408
- Total Submissions: 361435
  Difficulty: Hard
- Contributors: Admin
  Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
 
  For "(()", the longest valid parentheses substring is "()", which has length = 2.

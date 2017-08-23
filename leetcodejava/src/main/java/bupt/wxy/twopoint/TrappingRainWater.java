@@ -9,7 +9,9 @@ package bupt.wxy.twopoint;
  For example,
  Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
 
- The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped. Thanks Marcos for contributing this image!
+ The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1].
+ In this case, 6 units of rain water (blue section) are being trapped.
+ Thanks Marcos for contributing this image!
 
  Subscribe to see which companies asked this question
 
@@ -33,7 +35,6 @@ public class TrappingRainWater {
         int curr_height=Math.min(height[i],height[j]);
         int res=0;
         while (i<j){
-
             if(height[i]>=height[j]){
                 res+=(curr_height-height[j--]);
                 if(height[j]>curr_height)curr_height=Math.min(height[i],height[j]);

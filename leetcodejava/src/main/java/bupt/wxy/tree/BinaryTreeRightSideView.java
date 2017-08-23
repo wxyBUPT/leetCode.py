@@ -1,14 +1,14 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 199. Binary Tree Right Side View Add to List
+ 199. Binary Tree Right Side View
  Difficulty: Medium
- Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+ Given a binary tree, imagine yourself standing on the right side of it,
+ return the values of the nodes you can see ordered from top to bottom.
 
  For example:
  Given the following binary tree,
@@ -18,8 +18,6 @@ import java.util.List;
  \     \
  5     4       <---
  You should return [1, 3, 4].
-
-
  */
 public class BinaryTreeRightSideView {
 

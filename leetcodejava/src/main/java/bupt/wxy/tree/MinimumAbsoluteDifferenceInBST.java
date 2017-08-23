@@ -1,10 +1,11 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 2/26/17.
- 530. Minimum Absolute Difference in BST My SubmissionsBack To Contest
+ 530. Minimum Absolute Difference in BST
  Difficulty: Easy
- Given a binary search tree with non-negative values, find the minimum absolute difference between values of any two nodes.
+ Given a binary search tree with non-negative values,
+ find the minimum absolute difference between values of any two nodes.
 
  Example:
 
@@ -25,18 +26,13 @@ package main.java.bupt.wxy.tree;
 
 // 利用中序遍历
 public class MinimumAbsoluteDifferenceInBST {
-
     int pre=Integer.MIN_VALUE;
     long res=Integer.MAX_VALUE;
-
     public int getMinimumDifference(TreeNode root) {
-
         inOrder(root);
         return (int)res;
     }
-
     private void inOrder(TreeNode root){
-
         if(root==null)return;
         inOrder(root.left);
         long dist = (long)root.val-(long)pre;

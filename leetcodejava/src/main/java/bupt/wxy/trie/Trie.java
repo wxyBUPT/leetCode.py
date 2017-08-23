@@ -1,14 +1,10 @@
-package main.java.bupt.wxy.trie;
+package bupt.wxy.trie;
 
 /**
  * Created by xiyuanbupt on 1/16/17.
- 208. Implement Trie (Prefix Tree)   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 61060
- Total Submissions: 238568
+ 208. Implement Trie (Prefix Tree)
  Difficulty: Medium
- Contributors: Admin
  Implement a trie with insert, search, and startsWith methods.
-
  */
 class TrieNode {
     // Initialize your data structure here.

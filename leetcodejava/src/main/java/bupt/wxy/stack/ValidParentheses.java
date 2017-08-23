@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.stack;
+package bupt.wxy.stack;
 
 import java.util.Stack;
 

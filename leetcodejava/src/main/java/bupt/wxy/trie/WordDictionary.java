@@ -1,8 +1,8 @@
-package main.java.bupt.wxy.trie;
+package bupt.wxy.trie;
 
 /**
  * Created by xiyuanbupt on 1/11/17.
- 211. Add and Search Word - Data structure design   Add to List QuestionEditorial Solution  My Submissions
+ 211. Add and Search Word - Data structure design
  Difficulty: Medium
  Design a data structure that supports the following two operations:
 

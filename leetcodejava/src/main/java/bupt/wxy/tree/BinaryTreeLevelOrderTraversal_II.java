@@ -1,14 +1,11 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 3/1/17.
- 107. Binary Tree Level Order Traversal II Add to List
- Description  Submission  Solutions
- Total Accepted: 116044
- Total Submissions: 302145
+ 107. Binary Tree Level Order Traversal II
  Difficulty: Easy
- Contributors: Admin
- Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+ Given a binary tree, return the bottom-up level order traversal of its nodes' values.
+ (ie, from left to right, level by level from leaf to root).
 
  For example:
  Given binary tree [3,9,20,null,null,15,7],

@@ -1,14 +1,12 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 1/3/17.
  450. Delete Node in a BST
  Difficulty: Medium
-
- Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
-
+ Given a root node reference of a BST and a key, delete the node with the given key in the BST.
+ Return the root node reference (possibly updated) of the BST.
  Basically, the deletion can be divided into two stages:
-
  Search for a node to remove.
  If the node is found, delete the node.
  Note: Time complexity should be O(height of tree).
@@ -45,9 +43,10 @@ package main.java.bupt.wxy.tree;
 
 // 很不容易去想二叉树的非递归操作 34.77%
 public class DeleteNodeInABST {
+
     public TreeNode deleteNode(TreeNode root, int key) {
         if(root==null)return null;
-        if(key<root.val)root.left=deleteNode(root.left,key);
+        if(key<root.val)root.left=deleteNode(root.left, key);
         else if(key>root.val)root.right=deleteNode(root.right,key);
         else {
             if(root.left==null)return root.right;

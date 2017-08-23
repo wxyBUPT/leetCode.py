@@ -1,7 +1,5 @@
-package main.java.bupt.wxy.string.easy;
+package bupt.wxy.string.easy;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by xiyuanbupt on 1/15/17.

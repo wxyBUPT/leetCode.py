@@ -1,12 +1,8 @@
-package main.java.bupt.wxy.string;
+package bupt.wxy.string;
 
 /**
  * Created by xiyuanbupt on 3/26/17.
- 537. Complex Number Multiplication My SubmissionsBack To Contest
- User Accepted: 2
- User Tried: 3
- Total Accepted: 2
- Total Submissions: 3
+ 537. Complex Number Multiplication
  Difficulty: Medium
  Given two strings representing two complex numbers.
 
@@ -23,7 +19,8 @@ package main.java.bupt.wxy.string;
  Note:
 
  The input strings will not have extra blank.
- The input strings will be given in the form of a+bi, where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
+ The input strings will be given in the form of a+bi,
+ where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
  */
 public class ComplexNumberMulltiplication {
 

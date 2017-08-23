@@ -22,14 +22,12 @@ package bupt.wxy.twopoint;
  * 当两点满足某条件即可
  */
 public class MinmumWindowSubstring {
-
     public String minWindow(String s, String t) {
         int[] map=new int[128];
         for(char c:t.toCharArray()){
             map[c]++;
         }
         char[] chars=s.toCharArray();
-
         int count=t.length(), begin=0,end=0,d=Integer.MAX_VALUE, head=0;
         while (end<s.length()){
             // 之前是大于0的

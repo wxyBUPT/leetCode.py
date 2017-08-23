@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.wanmeiOnline;
+package bupt.wxy.wanmeiOnline;
 
 import java.util.Scanner;
 

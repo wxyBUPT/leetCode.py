@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.unionfind;
+package bupt.wxy.unionfind;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.sort.easy;
+package bupt.wxy.sort.easy;
 
 /**
  * Created by xiyuanbupt on 3/11/17.

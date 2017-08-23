@@ -1,6 +1,4 @@
-package main.java.bupt.wxy.tree;
-
-import main.java.bupt.wxy.linkedlist.ListNode;
+package bupt.wxy.tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -8,7 +6,7 @@ import java.util.List;
 
 /**
  * Created by xiyuanbupt on 1/8/17.
- 95. Unique Binary Search Trees II   Add to List QuestionEditorial Solution  My Submissions
+ 95. Unique Binary Search Trees II
  Difficulty: Medium
 
  Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1...n.

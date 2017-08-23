@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 import java.util.*;
 
@@ -27,7 +27,6 @@ import java.util.*;
  ]
  */
 public class BinaryTreeLevelOrderTraversal {
-
     // 12.69%
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res=new LinkedList<>();

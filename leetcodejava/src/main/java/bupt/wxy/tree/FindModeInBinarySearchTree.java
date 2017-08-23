@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.tree;
+package bupt.wxy.tree;
 
 /**
  * Created by xiyuanbupt on 2/6/17.
@@ -19,7 +19,6 @@ package main.java.bupt.wxy.tree;
  return [2].
  */
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +31,6 @@ public class FindModeInBinarySearchTree {
     int vote=0;
     int max=0;
     List<Integer> res=new ArrayList<>();
-
     public int[] findMode(TreeNode root) {
         if(root==null)return new int[0];
         inOrder(root);

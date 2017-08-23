@@ -1,14 +1,11 @@
-package main.java.bupt.wxy.stack;
+package bupt.wxy.stack;
 
 import java.util.Stack;
 
 /**
  * Created by xiyuanbupt on 1/13/17.
- 232. Implement Queue using Stacks   Add to List QuestionEditorial Solution  My Submissions
- Total Accepted: 68410
- Total Submissions: 195596
+ 232. Implement Queue using Stacks
  Difficulty: Easy
- Contributors: Admin
  Implement the following operations of a queue using stacks.
 
  push(x) -- Push element x to the back of queue.

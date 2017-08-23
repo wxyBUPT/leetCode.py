@@ -1,4 +1,4 @@
-package main.java.bupt.wxy.stack;
+package bupt.wxy.stack;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -7,7 +7,6 @@ import java.util.Stack;
 /**
  * Created by xiyuanbupt on 2/14/17.
  225. Implement Stack using Queues
- Description  Submission  Solutions
  Difficulty: Easy
  Implement the following operations of a stack using queues.
 
